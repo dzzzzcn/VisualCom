@@ -161,8 +161,9 @@ BOOL CLamp::Actuate(WORD key, DPOINT p, UINT flags)
 		{
 			m_LampCtrl = FALSE;
 		}
-		*/
+		
 		m_RefreshFlag = TRUE;	
+		*/
 	}
 
 	return FALSE;

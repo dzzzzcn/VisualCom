@@ -142,14 +142,13 @@ BOOL CLamp::Plot(ACTIVESTATE state)
 
 BOOL CLamp::Actuate(WORD key, DPOINT p, UINT flags)
 {
-	if ((key & VK_KEY_MASK) == 'A')                                  //判断按键码
+	if ((key & VK_KEY_MASK) == 'A')                                   //判断按键码
 	{
 		if (key & MK_KEYDOWN)                                     //判断是否为按下
 		{
 			m_LampCtrl = (!m_LampCtrl);
-		}
-
-		m_RefreshFlag = TRUE;
+			m_RefreshFlag = TRUE;
+		}		
 	}
 
 	return FALSE;
