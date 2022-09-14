@@ -34,12 +34,12 @@ LONG CLamp::GetTimeInterval(INT dat)
 	return -1;
 }
 
-BOOL CLamp::IntervalProcess(INT mode)
+BOOL CLamp::IntervalProcess(RUNMODES mode)
 {
 	return TRUE;
 }
 
-VOID CLamp::Initialize(ICOMPONENT* cpt, INT smode)
+VOID CLamp::Initialize(ICOMPONENT* cpt, DSIMMODES smode)
 {
 	component = cpt;                                           //初始化本地元件指针
 }
@@ -49,7 +49,7 @@ VOID CLamp::Setup(SIMDATA* sdat)
 
 }
 
-BOOL CLamp::Simulate(ABSTIME time, RUNMODES smode)
+BOOL CLamp::Simulate(ABSTIME time, RUNMODES mode)
 {
 	PRODATA pro_data_tmp;
 	component->GetProData(pro_data_tmp);                             //获取预置数据

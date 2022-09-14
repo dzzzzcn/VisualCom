@@ -142,30 +142,16 @@ BOOL CLamp::Plot(ACTIVESTATE state)
 
 BOOL CLamp::Actuate(WORD key, DPOINT p, UINT flags)
 {
-	
-	if (component->InsideComponent(p))           //判断单击处坐标是否处于元件范围内
+	if ((key & VK_KEY_MASK) == 'A')                                    //判断按键码
 	{
-		
-		if (flags & MK_LBUTTON)
+		if (key & MK_KEYDOWN)                                      //判断是否为按下
 		{
 			m_LampCtrl = (!m_LampCtrl);
-
 			m_RefreshFlag = TRUE;
-		}
-		
-		/***以下实现鼠标左键按下点亮灯泡，松开熄灭灯泡
-		if (flags & MK_LBDOWN)
-		{
-			m_LampCtrl = TRUE;
-		}
-		else if (flags & MK_LBUP)
-		{
-			m_LampCtrl = FALSE;
-		}
-		
-		m_RefreshFlag = TRUE;	
-		*/
+		}		
 	}
 
 	return FALSE;
 }
+
+

@@ -8,21 +8,18 @@ class CLamp : public CDSIMMODEL
 	BOOL m_RefreshFlag;   //是否刷新视图，FALSE为否，TRUE为是
 	DPOINT sym1_offset;                     //图形1的偏移位置
 	FILLSTYLE m_fs;                                //填充样式
-
-	BOOL m_LampCtrl;	                     //控制灯泡的状态
-	LONG m_SysInvokingCount;             //需要系统调用的次数
-	LONG m_CurrentInvokingCount;               //当前调用次数
 public:
 	CLamp();                                       //构造函数
 	~CLamp();                                      //析构函数
+	PROPCELLS GetRegisterPage(); //获取添加到寄存器窗口的状态
 public:                    //以下为仿真模型开发需要实现的接口
 	CDSIMMODEL* GetSimModel(TCHAR* device);
 	ICOMPONENT* GetComponentPtr();
 	LONG GetTimeInterval(INT dat);
-	BOOL IntervalProcess(INT mode);
-	VOID Initialize(ICOMPONENT* cpt, INT smode);
+	BOOL IntervalProcess(RUNMODES mode);
+	VOID Initialize(ICOMPONENT* cpt, DSIMMODES smode);
 	VOID Setup(SIMDATA* sdat);
-	BOOL Simulate(ABSTIME time, RUNMODES smode);
+	BOOL Simulate(ABSTIME time, RUNMODES mode);
 	VOID CallBack(ABSTIME time, EVENTID eventid);
 	BOOL Indicate(REALTIME time, ACTIVEDATA* data);
 	VOID Animate(INT element, ACTIVEDATA* data);

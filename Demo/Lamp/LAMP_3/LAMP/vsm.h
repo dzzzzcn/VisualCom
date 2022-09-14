@@ -661,10 +661,10 @@ struct CDSIMMODEL
 	virtual CDSIMMODEL* GetSimModel(TCHAR* device) = 0;
 	virtual ICOMPONENT* GetComponentPtr() = 0;
 	virtual LONG GetTimeInterval(INT dat) = 0;
-	virtual BOOL IntervalProcess(INT mode) = 0;
-	virtual VOID Initialize(ICOMPONENT* cpt, INT smode) = 0;
+	virtual BOOL IntervalProcess(RUNMODES mode) = 0;
+	virtual VOID Initialize(ICOMPONENT* cpt, DSIMMODES smode) = 0;
 	virtual VOID Setup(SIMDATA* sdat) = 0;
-	virtual BOOL Simulate(ABSTIME time, RUNMODES smode) = 0;
+	virtual BOOL Simulate(ABSTIME time, RUNMODES mode) = 0;
 	virtual VOID CallBack(ABSTIME time, EVENTID eventid) = 0;
 	virtual BOOL Indicate(REALTIME time, ACTIVEDATA* data) = 0;
 	virtual VOID Animate(INT element, ACTIVEDATA* data) = 0;

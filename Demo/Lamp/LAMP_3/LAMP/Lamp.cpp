@@ -39,18 +39,18 @@ LONG CLamp::GetTimeInterval(INT dat)
 	return -1;
 }
 
-BOOL CLamp::IntervalProcess(INT mode)
+BOOL CLamp::IntervalProcess(RUNMODES mode)
 {
 	return TRUE;
 }
 
-VOID CLamp::Initialize(ICOMPONENT* cpt, INT smode)
+VOID CLamp::Initialize(ICOMPONENT* cpt, DSIMMODES smode)
 {
 	component = cpt;                                           //初始化本地元件指针
 
 	sym1_offset = component->GetSymbolOffset(1);              //获取图形1的偏移位置
 
-	COLORREF color;
+	COLORREF color = 0;
 	if (component->GetColorFiledById(100, color))      //通过ID值获取用户定义的颜色
 	{
 		m_fs.color = color;
@@ -62,7 +62,7 @@ VOID CLamp::Setup(SIMDATA* sdat)
 
 }
 
-BOOL CLamp::Simulate(ABSTIME time, RUNMODES smode)
+BOOL CLamp::Simulate(ABSTIME time, RUNMODES mode)
 {
 	PRODATA pro_data_tmp;
 	if (component->GetProData(pro_data_tmp))                         //获取预置数据

@@ -15,8 +15,8 @@ public:                    //以下为仿真模型开发需要实现的接口
 	CDSIMMODEL* GetSimModel(TCHAR* device);
 	ICOMPONENT* GetComponentPtr();
 	LONG GetTimeInterval(INT dat);
-	BOOL IntervalProcess(INT mode);
-	VOID Initialize(ICOMPONENT* cpt, INT smode);
+	BOOL IntervalProcess(RUNMODES mode);
+	VOID Initialize(ICOMPONENT* cpt, DSIMMODES smode);
 	VOID Setup(SIMDATA* sdat);
 	BOOL Simulate(ABSTIME time, RUNMODES smode);
 	VOID CallBack(ABSTIME time, EVENTID eventid);
