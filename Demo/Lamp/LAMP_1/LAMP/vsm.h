@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _VSM_H
+#define _VSM_H
 
 #include <vector>
 #include <list>
@@ -672,3 +673,4 @@ struct CDSIMMODEL
 	virtual BOOL Actuate(WORD key, DPOINT p, UINT flags) = 0;
 };
 
+#endif _VSM_H
