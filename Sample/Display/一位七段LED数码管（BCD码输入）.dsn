@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 1.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='4'>
+			<INDEX>0</INDEX>
+			<COLOR>3B3B3B</COLOR>
+		</FILL>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>A4A0A0</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>7SEGLED02S02B</NAME>
+			<REF type='0'>D</REF>
+			<DESCRIPTION>7-Segment Display, 1 digit, Color Changable, BCD Input</DESCRIPTION>
+			<PPP>11</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>7SEGLED02S02B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>D</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>7SEGLED02S02B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>点亮</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION>发光段的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>点亮边框</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION>发光段的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>类型</NAME>
+				<DEFAULT>下小数点</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>下小数点,中冒号,上小数点</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='81.65969,120.25561'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='59.01954,88.20000' b='81.65969,114.20000' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+					<POLYGON pos='67.00000,90.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.51069,2.03577' arc='0'/>
+						<POINT pos='7.92902,2.03638' arc='0'/>
+						<POINT pos='9.34673,0.84422' arc='0'/>
+						<POINT pos='8.27572,0.08737' arc='0' control='8.81279,0.19153'/>
+						<POINT pos='0.95051,0.08849' arc='0'/>
+						<POINT pos='0.15360,0.41358' arc='0' control='0.51291,0.13739'/>
+						<POINT pos='1.40226,1.97807' arc='0'/>
+						<POINT pos='1.40226,1.98315' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='65.20000,90.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.79582,0.12562' arc='0'/>
+						<POINT pos='3.05431,1.66582' arc='0'/>
+						<POINT pos='1.86411,8.49592' arc='0'/>
+						<POINT pos='0.79037,9.44022' arc='0'/>
+						<POINT pos='0.01321,8.50559' arc='0'/>
+						<POINT pos='1.32654,0.86669' arc='0'/>
+						<POINT pos='1.79386,0.12000' arc='0' control='1.45254,0.40388'/>
+					</POLYGON>
+					<POLYGON pos='73.80000,91.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.63108,0.19226' arc='0'/>
+						<POINT pos='1.21897,1.40119' arc='0'/>
+						<POINT pos='0.09159,8.12321' arc='0'/>
+						<POINT pos='0.77732,9.04768' arc='0'/>
+						<POINT pos='0.88907,9.04768' arc='0'/>
+						<POINT pos='1.86434,8.17400' arc='0'/>
+						<POINT pos='2.97462,1.46242' arc='0'/>
+						<POINT pos='2.63722,0.19549' arc='0' control='3.06665,0.56268'/>
+					</POLYGON>
+					<POLYGON pos='66.00000,99.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.07169,0.95882' arc='0'/>
+						<POINT pos='1.12823,0.04451' arc='0'/>
+						<POINT pos='7.71163,0.04509' arc='0'/>
+						<POINT pos='8.48372,0.98481' arc='0'/>
+						<POINT pos='7.42986,1.91467' arc='0'/>
+						<POINT pos='0.81062,1.91139' arc='0'/>
+						<POINT pos='0.06901,0.95644' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='63.60000,100.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.32316,0.07788' arc='0'/>
+						<POINT pos='1.23614,1.03283' arc='0'/>
+						<POINT pos='0.05543,7.98079' arc='0'/>
+						<POINT pos='0.40531,9.19174' arc='0' control='0.04660,8.58484'/>
+						<POINT pos='1.89761,7.90980' arc='0'/>
+						<POINT pos='3.09470,0.99408' arc='0'/>
+						<POINT pos='2.33785,0.07977' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='72.20000,100.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.36548,0.13610' arc='0'/>
+						<POINT pos='1.31910,1.06566' arc='0'/>
+						<POINT pos='0.16738,7.84090' arc='0'/>
+						<POINT pos='1.34199,9.33518' arc='0'/>
+						<POINT pos='1.83978,8.58849' arc='0' control='1.69619,9.04090'/>
+						<POINT pos='3.13267,1.07988' arc='0'/>
+						<POINT pos='2.38090,0.13509' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='64.00000,108.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.12867,1.33288' arc='0'/>
+						<POINT pos='1.58649,0.01729' arc='0'/>
+						<POINT pos='8.25231,0.02555' arc='0'/>
+						<POINT pos='9.41043,1.44273' arc='0'/>
+						<POINT pos='8.52821,1.90063' arc='0' control='9.02571,1.84013'/>
+						<POINT pos='1.15375,1.90198' arc='0'/>
+						<POINT pos='0.11752,1.32291' arc='0' control='0.61694,1.81444'/>
+					</POLYGON>
+					<ELLIPSE a='77.05542,110.06655' b='75.09818,108.05780' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<PIN pos='65.38666,120.25561' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A</PIN>
+					<PIN pos='67.51177,120.25561' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>B</PIN>
+					<PIN pos='69.51177,120.25561' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>C</PIN>
+					<PIN pos='71.51177,120.25561' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D</PIN>
+					<PIN pos='75.51177,120.25561' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DP</PIN>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='59.01954,88.20000' b='81.65969,114.20000' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='68.80000,57.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.48180,2.02394' arc='0'/>
+						<POINT pos='7.90013,2.02455' arc='0'/>
+						<POINT pos='9.31784,0.83239' arc='0'/>
+						<POINT pos='8.24683,0.07554' arc='0' control='8.78390,0.17970'/>
+						<POINT pos='0.92162,0.07666' arc='0'/>
+						<POINT pos='0.12471,0.40175' arc='0' control='0.48402,0.12556'/>
+						<POINT pos='1.37337,1.96624' arc='0'/>
+						<POINT pos='1.37337,1.97132' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='75.60000,58.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.60219,0.18043' arc='0'/>
+						<POINT pos='1.19008,1.38936' arc='0'/>
+						<POINT pos='0.06270,8.11138' arc='0'/>
+						<POINT pos='0.74843,9.03585' arc='0'/>
+						<POINT pos='0.86018,9.03585' arc='0'/>
+						<POINT pos='1.83545,8.16217' arc='0'/>
+						<POINT pos='2.94573,1.45059' arc='0'/>
+						<POINT pos='2.60833,0.18366' arc='0' control='3.03776,0.55085'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='74.00000,67.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.33659,0.12427' arc='0'/>
+						<POINT pos='1.29021,1.05383' arc='0'/>
+						<POINT pos='0.13849,7.82907' arc='0'/>
+						<POINT pos='1.31310,9.32335' arc='0'/>
+						<POINT pos='1.81089,8.57666' arc='0' control='1.66730,9.02907'/>
+						<POINT pos='3.10378,1.06805' arc='0'/>
+						<POINT pos='2.35201,0.12326' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='65.80000,75.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09978,1.32105' arc='0'/>
+						<POINT pos='1.55760,0.00546' arc='0'/>
+						<POINT pos='8.22342,0.01372' arc='0'/>
+						<POINT pos='9.38154,1.43090' arc='0'/>
+						<POINT pos='8.49932,1.88880' arc='0' control='8.99682,1.82830'/>
+						<POINT pos='1.12486,1.89015' arc='0'/>
+						<POINT pos='0.08863,1.31108' arc='0' control='0.58805,1.80261'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='65.40000,67.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.29427,0.06605' arc='0'/>
+						<POINT pos='1.20725,1.02100' arc='0'/>
+						<POINT pos='0.02654,7.96896' arc='0'/>
+						<POINT pos='0.37642,9.17991' arc='0' control='0.01771,8.57301'/>
+						<POINT pos='1.86872,7.89797' arc='0'/>
+						<POINT pos='3.06581,0.98225' arc='0'/>
+						<POINT pos='2.30896,0.06794' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='66.80000,57.60000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.96693,0.11379' arc='0'/>
+						<POINT pos='3.22542,1.65399' arc='0'/>
+						<POINT pos='2.03522,8.48409' arc='0'/>
+						<POINT pos='0.96148,9.42839' arc='0'/>
+						<POINT pos='0.18432,8.49376' arc='0'/>
+						<POINT pos='1.49765,0.85486' arc='0'/>
+						<POINT pos='1.96497,0.10817' arc='0' control='1.62365,0.39205'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='67.80000,66.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.04280,0.94699' arc='0'/>
+						<POINT pos='1.09934,0.03268' arc='0'/>
+						<POINT pos='7.68274,0.03326' arc='0'/>
+						<POINT pos='8.45483,0.97298' arc='0'/>
+						<POINT pos='7.40097,1.90284' arc='0'/>
+						<POINT pos='0.78173,1.89956' arc='0'/>
+						<POINT pos='0.04012,0.94461' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='78.82653,76.85472' b='76.86929,74.84597' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='79.63518,71.46921' b='77.67794,69.46046' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='80.68494,65.28060' b='78.72770,63.27185' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<SYMBOL id='1' pos='110.42777,100.61228' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='7SEGLED02S02B' show='-1' pos='1.00000,-30.05561'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='D' show='-1' pos='1.00000,-27.65561'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-22.85561'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='7SEGLED02S02B.DLL' show='0' pos='1.00000,-20.45561'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-18.05561'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='-1' pos='1.00000,-25.25561'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-15.65561'/>
+			<FIELD id='101' pt='3' extra='' description='发光段的填充颜色' type='1' name='点亮' value='ffffff' show='0' pos='1.00000,-13.25561'/>
+			<FIELD id='102' pt='3' extra='' description='发光段的边框颜色' type='1' name='点亮边框' value='ffffff' show='0' pos='1.00000,-10.85561'/>
+			<FIELD id='103' pt='5' extra='下小数点,中冒号,上小数点' description='' type='1' name='类型' value='下小数点' show='0' pos='1.00000,-8.45561'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='2' info=''/>
+			<PRODATA number='4' type='1' typeex='0' lldata='3' info=''/>
+			<PRODATA number='5' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='6' type='1' typeex='0' lldata='5' info=''/>
+			<PRODATA number='7' type='1' typeex='0' lldata='6' info=''/>
+			<PRODATA number='8' type='1' typeex='0' lldata='7' info=''/>
+			<PRODATA number='9' type='1' typeex='0' lldata='8' info=''/>
+			<PRODATA number='10' type='1' typeex='0' lldata='25' info=''/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='160.00000,100.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='7SEGLED02S02B' show='1' pos='1.00000,-30.05561'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='D' show='1' pos='1.00000,-27.65561'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-22.85561'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='7SEGLED02S02B.DLL' show='0' pos='1.00000,-20.45561'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-18.05561'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-25.25561'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-15.65561'/>
+			<FIELD id='101' pt='3' extra='' description='发光段的填充颜色' type='1' name='点亮' value='ffffff' show='0' pos='1.00000,-13.25561'/>
+			<FIELD id='102' pt='3' extra='' description='发光段的边框颜色' type='1' name='点亮边框' value='ffffff' show='0' pos='1.00000,-10.85561'/>
+			<FIELD id='103' pt='5' extra='下小数点,中冒号,上小数点' description='' type='1' name='类型' value='下小数点' show='0' pos='1.00000,-8.45561'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='0' info='数字0'/>
+			<PRODATA number='2' type='1' typeex='0' lldata='1' info='数字1'/>
+			<PRODATA number='3' type='1' typeex='0' lldata='2' info='数字2'/>
+			<PRODATA number='4' type='1' typeex='0' lldata='3' info='数字3'/>
+			<PRODATA number='5' type='1' typeex='0' lldata='4' info='数字4'/>
+			<PRODATA number='6' type='1' typeex='0' lldata='5' info='数字5'/>
+			<PRODATA number='7' type='1' typeex='0' lldata='6' info='数字6'/>
+			<PRODATA number='8' type='1' typeex='0' lldata='7' info='数字7'/>
+			<PRODATA number='9' type='1' typeex='0' lldata='8' info='数字8'/>
+			<PRODATA number='10' type='1' typeex='0' lldata='25' info='数字9，小数点'/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>
