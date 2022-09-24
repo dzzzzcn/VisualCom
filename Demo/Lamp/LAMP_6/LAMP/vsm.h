@@ -602,11 +602,11 @@ struct ICOMPONENT
 	virtual VOID BeginCache(DRECT rect) = 0;
 	virtual VOID EndCache() = 0;
 
-	virtual VOID DrawSymbol(INT index, double dx = 0, double dy = 0) = 0;
-	virtual VOID DrawSymbol(INT index, LINESTYLE* ls, double dx = 0, double dy = 0) = 0;
-	virtual VOID DrawSymbol(INT index, FILLSTYLE* fs, double dx = 0, double dy = 0) = 0;
-	virtual VOID DrawSymbol(INT index, FONTSTYLE* ts, double dx = 0, double dy = 0) = 0;
-	virtual VOID DrawSymbol(INT index, LINESTYLE* ls, FILLSTYLE* fs, FONTSTYLE* ts, double dx = 0, double dy = 0) = 0;
+	virtual VOID DrawSymbol(INT index, DOUBLE dx = 0, DOUBLE dy = 0) = 0;
+	virtual VOID DrawSymbol(INT index, LINESTYLE* ls, DOUBLE dx = 0, DOUBLE dy = 0) = 0;
+	virtual VOID DrawSymbol(INT index, FILLSTYLE* fs, DOUBLE dx = 0, DOUBLE dy = 0) = 0;
+	virtual VOID DrawSymbol(INT index, FONTSTYLE* ts, DOUBLE dx = 0, DOUBLE dy = 0) = 0;
+	virtual VOID DrawSymbol(INT index, LINESTYLE* ls, FILLSTYLE* fs, FONTSTYLE* ts, DOUBLE dx = 0, DOUBLE dy = 0) = 0;
 
 
 	virtual VOID SetPenColor(COLORREF col) = 0;
