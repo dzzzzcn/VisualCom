@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='4'>
+			<INDEX>0</INDEX>
+			<COLOR>3B3B3B</COLOR>
+		</FILL>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>A4A0A0</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>MLED8X8D02S02B</NAME>
+			<REF type='0'>M</REF>
+			<DESCRIPTION>8x8 LED Dot Matrix Display, Dynamic Scaning</DESCRIPTION>
+			<PPP>4</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>MLED8X8D02S02B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>M</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>MLEDNXND02S02B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT>8X8</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>点亮</NAME>
+				<DEFAULT>0000ff</DEFAULT>
+				<DESCRIPTION>发光像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>点亮边框</NAME>
+				<DEFAULT>0042ff</DEFAULT>
+				<DESCRIPTION>发光像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>熄灭</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION>熄灭像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>熄灭边框</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION>熄灭像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>105</ID>
+				<NAME>形状</NAME>
+				<DEFAULT>圆形</DEFAULT>
+				<DESCRIPTION>像素的形状</DESCRIPTION>
+				<EXTRA>圆形,方形</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>106</ID>
+				<NAME>结构</NAME>
+				<DEFAULT>共阴</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>共阴,共阳</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='154.00000,118.60000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<PIN pos='154.00000,104.60000' which='0' elec='0' direction='2' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>H</PIN>
+					<PIN pos='154.00000,98.60000' which='0' elec='0' direction='2' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>C</PIN>
+					<PIN pos='154.00000,96.60000' which='0' elec='0' direction='2' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D</PIN>
+					<PIN pos='154.00000,94.60000' which='0' elec='0' direction='2' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E</PIN>
+					<PIN pos='154.00000,92.60000' which='0' elec='0' direction='2' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>F</PIN>
+					<PIN pos='154.00000,90.60000' which='0' elec='0' direction='2' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>G</PIN>
+					<PIN pos='154.00000,100.60000' which='0' elec='0' direction='2' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>B</PIN>
+					<PIN pos='154.00000,102.60000' which='0' elec='0' direction='2' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A</PIN>
+					<PIN pos='130.00000,118.60000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>3</PIN>
+					<PIN pos='132.00000,118.60000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>4</PIN>
+					<PIN pos='134.00000,118.60000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>5</PIN>
+					<PIN pos='136.00000,118.60000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>6</PIN>
+					<PIN pos='138.00000,118.60000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>7</PIN>
+					<PIN pos='140.00000,118.60000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>8</PIN>
+					<PIN pos='128.00000,118.60000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>2</PIN>
+					<PIN pos='126.00000,118.60000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>1</PIN>
+					<RECTANGLE a='118.00000,82.00000' b='148.00000,112.60000' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+					<ELLIPSE a='119.00000,83.00000' b='122.20000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,83.00000' b='125.80000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,83.00000' b='129.40000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,83.00000' b='133.00000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,83.00000' b='136.60000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,83.00000' b='140.20000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,83.00000' b='143.80000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,83.00000' b='147.40000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,86.60000' b='122.20000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,86.60000' b='125.80000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,86.60000' b='129.40000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,86.60000' b='133.00000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,86.60000' b='136.60000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,86.60000' b='140.20000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,86.60000' b='143.80000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,86.60000' b='147.40000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,90.20000' b='122.20000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,90.20000' b='125.80000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,90.20000' b='129.40000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,90.20000' b='133.00000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,90.20000' b='136.60000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,90.20000' b='140.20000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,90.20000' b='143.80000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,90.20000' b='147.40000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,93.80000' b='122.20000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,93.80000' b='125.80000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,93.80000' b='129.40000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,93.80000' b='133.00000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,93.80000' b='136.60000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,93.80000' b='140.20000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,93.80000' b='143.80000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,93.80000' b='147.40000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,97.40000' b='122.20000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,97.40000' b='125.80000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,97.40000' b='129.40000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,97.40000' b='133.00000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,97.40000' b='136.60000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,97.40000' b='140.20000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,97.40000' b='143.80000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,97.40000' b='147.40000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,101.00000' b='122.20000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,101.00000' b='125.80000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,101.00000' b='129.40000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,101.00000' b='133.00000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,101.00000' b='136.60000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,101.00000' b='140.20000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,101.00000' b='143.80000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,101.00000' b='147.40000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,104.60000' b='122.20000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,104.60000' b='125.80000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,104.60000' b='129.40000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,104.60000' b='133.00000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,104.60000' b='136.60000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,104.60000' b='140.20000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,104.60000' b='143.80000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,104.60000' b='147.40000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='119.00000,108.20000' b='122.20000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='122.60000,108.20000' b='125.80000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='126.20000,108.20000' b='129.40000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='129.80000,108.20000' b='133.00000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='133.40000,108.20000' b='136.60000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='137.00000,108.20000' b='140.20000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='140.60000,108.20000' b='143.80000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='144.20000,108.20000' b='147.40000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='118.00000,82.00000' b='148.00000,112.60000' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='144.20000,108.20000' b='147.40000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='131.13000,130.60400' b='134.33000,133.80400' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<PIN pos='154.00000,104.60000' which='0' elec='0' direction='2' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>H</PIN>
+		<PIN pos='154.00000,98.60000' which='0' elec='0' direction='2' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>C</PIN>
+		<PIN pos='154.00000,96.60000' which='0' elec='0' direction='2' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D</PIN>
+		<PIN pos='154.00000,94.60000' which='0' elec='0' direction='2' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E</PIN>
+		<PIN pos='154.00000,92.60000' which='0' elec='0' direction='2' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>F</PIN>
+		<PIN pos='154.00000,90.60000' which='0' elec='0' direction='2' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>G</PIN>
+		<PIN pos='154.00000,100.60000' which='0' elec='0' direction='2' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>B</PIN>
+		<PIN pos='154.00000,102.60000' which='0' elec='0' direction='2' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A</PIN>
+		<PIN pos='130.00000,118.60000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>3</PIN>
+		<PIN pos='132.00000,118.60000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>4</PIN>
+		<PIN pos='134.00000,118.60000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>5</PIN>
+		<PIN pos='136.00000,118.60000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>6</PIN>
+		<PIN pos='138.00000,118.60000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>7</PIN>
+		<PIN pos='140.00000,118.60000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>8</PIN>
+		<PIN pos='128.00000,118.60000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>2</PIN>
+		<PIN pos='126.00000,118.60000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>1</PIN>
+		<RECTANGLE a='118.00000,82.00000' b='148.00000,112.60000' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<ELLIPSE a='119.00000,83.00000' b='122.20000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,83.00000' b='125.80000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,83.00000' b='129.40000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,83.00000' b='133.00000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,83.00000' b='136.60000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,83.00000' b='140.20000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,83.00000' b='143.80000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,83.00000' b='147.40000,86.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,86.60000' b='122.20000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,86.60000' b='125.80000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,86.60000' b='129.40000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,86.60000' b='133.00000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,86.60000' b='136.60000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,86.60000' b='140.20000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,86.60000' b='143.80000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,86.60000' b='147.40000,89.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,90.20000' b='122.20000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,90.20000' b='125.80000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,90.20000' b='129.40000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,90.20000' b='133.00000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,90.20000' b='136.60000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,90.20000' b='140.20000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,90.20000' b='143.80000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,90.20000' b='147.40000,93.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,93.80000' b='122.20000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,93.80000' b='125.80000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,93.80000' b='129.40000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,93.80000' b='133.00000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,93.80000' b='136.60000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,93.80000' b='140.20000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,93.80000' b='143.80000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,93.80000' b='147.40000,97.00000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,97.40000' b='122.20000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,97.40000' b='125.80000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,97.40000' b='129.40000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,97.40000' b='133.00000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,97.40000' b='136.60000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,97.40000' b='140.20000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,97.40000' b='143.80000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,97.40000' b='147.40000,100.60000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,101.00000' b='122.20000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,101.00000' b='125.80000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,101.00000' b='129.40000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,101.00000' b='133.00000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,101.00000' b='136.60000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,101.00000' b='140.20000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,101.00000' b='143.80000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,101.00000' b='147.40000,104.20000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,104.60000' b='122.20000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,104.60000' b='125.80000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,104.60000' b='129.40000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,104.60000' b='133.00000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,104.60000' b='136.60000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,104.60000' b='140.20000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,104.60000' b='143.80000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,104.60000' b='147.40000,107.80000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='119.00000,108.20000' b='122.20000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='122.60000,108.20000' b='125.80000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='126.20000,108.20000' b='129.40000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='129.80000,108.20000' b='133.00000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='133.40000,108.20000' b='136.60000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='137.00000,108.20000' b='140.20000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='140.60000,108.20000' b='143.80000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='144.20000,108.20000' b='147.40000,111.40000' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<RECTANGLE a='131.13000,130.60400' b='134.33000,133.80400' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<SYMBOL id='1' pos='209.84615,118.61538' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='MLED8X8D02S02B' show='1' pos='-22.94174,-37.14893'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='M' show='1' pos='-4.46199,-32.47310'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-27.40000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='MLEDNXND02S02B.DLL' show='0' pos='1.00000,-25.00000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='8X8' show='0' pos='1.00000,-22.60000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-29.80000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-20.20000'/>
+			<FIELD id='101' pt='3' extra='' description='发光像素的填充颜色' type='1' name='点亮' value='ffff00' show='0' pos='1.00000,-17.80000'/>
+			<FIELD id='102' pt='3' extra='' description='发光像素的边框颜色' type='1' name='点亮边框' value='ff0000' show='0' pos='1.00000,-15.40000'/>
+			<FIELD id='103' pt='3' extra='' description='熄灭像素的填充颜色' type='1' name='熄灭' value='0' show='0' pos='1.00000,-13.00000'/>
+			<FIELD id='104' pt='3' extra='' description='熄灭像素的边框颜色' type='1' name='熄灭边框' value='0' show='0' pos='1.00000,-10.60000'/>
+			<FIELD id='105' pt='5' extra='圆形,方形' description='像素的形状' type='1' name='形状' value='方形' show='0' pos='1.00000,-8.20000'/>
+			<FIELD id='106' pt='5' extra='共阴,共阳' description='' type='1' name='结构' value='共阴' show='0' pos='1.00000,-5.80000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='65279' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='63283' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='4350' info=''/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

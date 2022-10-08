@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='50.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-15</HEIGHT>
+			<WIDTH>7</WIDTH>
+			<WEIGHT>700</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='3'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<FILL id='4'>
+			<INDEX>0</INDEX>
+			<COLOR>808000</COLOR>
+		</FILL>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>3B3B3B</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>LOGIC8A01B</NAME>
+			<REF type='0'>U</REF>
+			<DESCRIPTION>Basic Logic including AND, OR,NOR, NAND,NOT, XOR, XNOR, Input Count width Changable</DESCRIPTION>
+			<PPP>3</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>LOGIC8A01B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>U</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>LOGIC8A01B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>输入</NAME>
+				<DEFAULT>00ffff</DEFAULT>
+				<DESCRIPTION>输入数据的文字颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>输出</NAME>
+				<DEFAULT>0000ff</DEFAULT>
+				<DESCRIPTION>输出数据的文字颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>标记</NAME>
+				<DEFAULT>00ff00</DEFAULT>
+				<DESCRIPTION>当前逻辑类型字符串标记的颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>输入数量</NAME>
+				<DEFAULT>8</DEFAULT>
+				<DESCRIPTION>输入引脚的数量（非逻辑固定为1，异或与同或固定为2）</DESCRIPTION>
+				<EXTRA>1,8</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>105</ID>
+				<NAME>逻辑类型</NAME>
+				<DEFAULT>AND</DEFAULT>
+				<DESCRIPTION>逻辑类型</DESCRIPTION>
+				<EXTRA>AND,OR,NOT,NAND,NOR,XOR,XNOR</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='136.00000,102.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='136.00000,96.00000' b='108.00000,80.00000' style='3' fill='4' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='808000'/>
+					<RECTANGLE a='134.00000,90.00000' b='110.00000,82.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+					<PIN pos='116.00000,102.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN7</PIN>
+					<PIN pos='118.00000,102.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN6</PIN>
+					<PIN pos='120.00000,102.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN5</PIN>
+					<PIN pos='122.00000,102.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN4</PIN>
+					<PIN pos='124.00000,102.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN3</PIN>
+					<PIN pos='126.00000,102.00000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN2</PIN>
+					<PIN pos='128.00000,102.00000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN1</PIN>
+					<PIN pos='130.00000,102.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN0</PIN>
+					<TEXT pos='119.33871,89.32781' direction='3' font='3' color='00FFFF'>0100 1101</TEXT>
+					<TEXT pos='131.43113,86.09239' direction='3' font='3' color='00FF00'>0</TEXT>
+					<TEXT pos='110.74564,86.32010' direction='3' font='3' color='FFFF00'>AND</TEXT>
+					<PIN pos='114.00000,102.00000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>OUT</PIN>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='135.00000,119.00000' b='111.00000,111.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+				</VisualCom>
+				<VisualCom>
+					<TEXT pos='117.06000,138.00000' direction='3' font='3' color='0000FF'>2022</TEXT>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<RECTANGLE a='136.00000,96.00000' b='108.00000,80.00000' style='3' fill='4' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='808000'/>
+		<RECTANGLE a='134.00000,90.00000' b='110.00000,82.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<PIN pos='116.00000,102.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN7</PIN>
+		<PIN pos='118.00000,102.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN6</PIN>
+		<PIN pos='120.00000,102.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN5</PIN>
+		<PIN pos='122.00000,102.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN4</PIN>
+		<PIN pos='124.00000,102.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN3</PIN>
+		<PIN pos='126.00000,102.00000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN2</PIN>
+		<PIN pos='128.00000,102.00000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN1</PIN>
+		<PIN pos='130.00000,102.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IN0</PIN>
+		<TEXT pos='119.33871,89.32781' direction='3' font='3' color='00FFFF'>0100 1101</TEXT>
+		<TEXT pos='131.43113,86.09239' direction='3' font='3' color='00FF00'>0</TEXT>
+		<TEXT pos='117.06000,138.00000' direction='3' font='3' color='0000FF'>2022</TEXT>
+		<TEXT pos='110.74564,86.32010' direction='3' font='3' color='FFFF00'>AND</TEXT>
+		<PIN pos='114.00000,102.00000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>OUT</PIN>
+		<RECTANGLE a='135.00000,119.00000' b='111.00000,111.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<SYMBOL id='1' pos='183.00000,101.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='LOGIC8A01B' show='1' pos='1.00000,-20.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='U' show='1' pos='1.00000,-17.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-12.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='LOGIC8A01B.DLL' show='0' pos='1.00000,-10.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-8.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-15.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-5.60000'/>
+			<FIELD id='101' pt='3' extra='' description='输入数据的文字颜色' type='1' name='输入' value='00ffff' show='0' pos='1.00000,-3.20000'/>
+			<FIELD id='102' pt='3' extra='' description='输出数据的文字颜色' type='1' name='输出' value='0000ff' show='0' pos='1.00000,-0.80000'/>
+			<FIELD id='103' pt='3' extra='' description='当前逻辑类型字符串标记的颜色' type='1' name='标记' value='00ff00' show='0' pos='1.00000,1.60000'/>
+			<FIELD id='104' pt='1' extra='1,8' description='输入引脚的数量（非逻辑固定为1，异或与同或固定为2）' type='1' name='输入数量' value='8' show='0' pos='1.00000,4.00000'/>
+			<FIELD id='105' pt='5' extra='AND,OR,NOT,NAND,NOR,XOR,XNOR' description='逻辑类型' type='1' name='逻辑类型' value='AND' show='0' pos='1.00000,6.40000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='2' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='4' type='1' typeex='0' lldata='17' info=''/>
+			<PRODATA number='5' type='1' typeex='0' lldata='255' info=''/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='183.00000,126.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='LOGIC8A01B' show='1' pos='1.00000,-20.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='U' show='1' pos='1.00000,-17.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-12.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='LOGIC8A01B.DLL' show='0' pos='1.00000,-10.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-8.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-15.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-5.60000'/>
+			<FIELD id='101' pt='3' extra='' description='输入数据的文字颜色' type='1' name='输入' value='00ffff' show='0' pos='1.00000,-3.20000'/>
+			<FIELD id='102' pt='3' extra='' description='输出数据的文字颜色' type='1' name='输出' value='0000ff' show='0' pos='1.00000,-0.80000'/>
+			<FIELD id='103' pt='3' extra='' description='当前逻辑类型字符串标记的颜色' type='1' name='标记' value='00ff00' show='0' pos='1.00000,1.60000'/>
+			<FIELD id='104' pt='1' extra='1,8' description='输入引脚的数量（非逻辑固定为1，异或与同或固定为2）' type='1' name='输入数量' value='4l' show='0' pos='1.00000,4.00000'/>
+			<FIELD id='105' pt='5' extra='AND,OR,NOT,NAND,NOR,XOR,XNOR' description='逻辑类型' type='1' name='逻辑类型' value='NAND' show='0' pos='1.00000,6.40000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='2' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='4' type='1' typeex='0' lldata='17' info=''/>
+			<PRODATA number='5' type='1' typeex='0' lldata='255' info=''/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='183.00000,151.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='LOGIC8A01B' show='1' pos='1.00000,-20.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='U' show='1' pos='1.00000,-17.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-12.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='LOGIC8A01B.DLL' show='0' pos='1.00000,-10.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-8.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-15.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-5.60000'/>
+			<FIELD id='101' pt='3' extra='' description='输入数据的文字颜色' type='1' name='输入' value='00ffff' show='0' pos='1.00000,-3.20000'/>
+			<FIELD id='102' pt='3' extra='' description='输出数据的文字颜色' type='1' name='输出' value='0000ff' show='0' pos='1.00000,-0.80000'/>
+			<FIELD id='103' pt='3' extra='' description='当前逻辑类型字符串标记的颜色' type='1' name='标记' value='00ff00' show='0' pos='1.00000,1.60000'/>
+			<FIELD id='104' pt='1' extra='1,8' description='输入引脚的数量（非逻辑固定为1，异或与同或固定为2）' type='1' name='输入数量' value='2l' show='0' pos='1.00000,4.00000'/>
+			<FIELD id='105' pt='5' extra='AND,OR,NOT,NAND,NOR,XOR,XNOR' description='逻辑类型' type='1' name='逻辑类型' value='XOR' show='0' pos='1.00000,6.40000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='2' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='4' type='1' typeex='0' lldata='17' info=''/>
+			<PRODATA number='5' type='1' typeex='0' lldata='255' info=''/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

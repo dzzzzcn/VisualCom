@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 1.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='3'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<STYLE id='4'>
+			<STYLE>0</STYLE>
+			<COLOR>0000FF</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='6'>
+			<INDEX>0</INDEX>
+			<COLOR>AAC8C8</COLOR>
+		</FILL>
+		<FILL id='7'>
+			<INDEX>0</INDEX>
+			<COLOR>808080</COLOR>
+		</FILL>
+		<FILL id='8'>
+			<INDEX>0</INDEX>
+			<COLOR>0000FF</COLOR>
+		</FILL>
+		<FILL id='9'>
+			<INDEX>0</INDEX>
+			<COLOR>AFFFFF</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>TFT10CN240320M7CUN2</NAME>
+			<REF type='0'>LCD</REF>
+			<DESCRIPTION>320x240 TFT LCD Module with ILI9341</DESCRIPTION>
+			<PPP>3</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>TFT10CN240320M7CUN2</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>LCD</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>TFT10CN240320M7CUN2.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>起始页</NAME>
+				<DEFAULT>0</DEFAULT>
+				<DESCRIPTION>内存窗口中显示的起始页（范围0~319）</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>页数量</NAME>
+				<DEFAULT>3</DEFAULT>
+				<DESCRIPTION>从起始页开始显示多少页（范围1~320,警告：建议不超过64，以避免加载时间过长）</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>图片</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION>指定初始化到GRAM的图片</DESCRIPTION>
+				<EXTRA>Bitmap文件(*.bmp)|*.bmp</EXTRA>
+				<FT>000001</FT>
+				<PT>000004</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>像素格式</NAME>
+				<DEFAULT>RGB666</DEFAULT>
+				<DESCRIPTION>图片初始化到GRAM的像素格式</DESCRIPTION>
+				<EXTRA>RGB666,RGB565</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='98.00000,92.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='28.00000,10.00000' b='98.00000,92.00000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+					<PIN pos='22.00000,14.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM3</PIN>
+					<PIN pos='22.00000,16.00000' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM2</PIN>
+					<PIN pos='22.00000,18.00000' which='0' elec='0' direction='3' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM1</PIN>
+					<PIN pos='22.00000,20.00000' which='0' elec='0' direction='3' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM0</PIN>
+					<PIN pos='22.00000,22.00000' which='0' elec='0' direction='3' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>EXTC</PIN>
+					<PIN pos='22.00000,24.00000' which='0' elec='0' direction='3' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>RES_N</PIN>
+					<PIN pos='22.00000,26.00000' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>CS_N</PIN>
+					<PIN pos='22.00000,28.00000' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D/C_N</PIN>
+					<PIN pos='22.00000,30.00000' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>WR_N</PIN>
+					<PIN pos='22.00000,32.00000' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>RD_N</PIN>
+					<PIN pos='22.00000,34.00000' which='0' elec='0' direction='3' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>SDI/SDA</PIN>
+					<PIN pos='22.00000,36.00000' which='0' elec='0' direction='3' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>SDO</PIN>
+					<PIN pos='22.00000,38.00000' which='0' elec='1' direction='3' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>TE</PIN>
+					<PIN pos='22.00000,40.00000' which='0' elec='0' direction='3' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DOTCLK</PIN>
+					<PIN pos='22.00000,42.00000' which='0' elec='0' direction='3' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VSYNC</PIN>
+					<PIN pos='22.00000,44.00000' which='0' elec='0' direction='3' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>HSYNC</PIN>
+					<PIN pos='22.00000,46.00000' which='0' elec='0' direction='3' part='0' number='17' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DE</PIN>
+					<PIN pos='22.00000,48.00000' which='0' elec='0' direction='3' part='0' number='18' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D17</PIN>
+					<PIN pos='22.00000,50.00000' which='0' elec='0' direction='3' part='0' number='19' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D16</PIN>
+					<PIN pos='22.00000,52.00000' which='0' elec='0' direction='3' part='0' number='20' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D15</PIN>
+					<PIN pos='22.00000,54.00000' which='0' elec='0' direction='3' part='0' number='21' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D14</PIN>
+					<PIN pos='22.00000,56.00000' which='0' elec='0' direction='3' part='0' number='22' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D13</PIN>
+					<PIN pos='22.00000,58.00000' which='0' elec='0' direction='3' part='0' number='23' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D12</PIN>
+					<PIN pos='22.00000,60.00000' which='0' elec='0' direction='3' part='0' number='24' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D11</PIN>
+					<PIN pos='22.00000,62.00000' which='0' elec='0' direction='3' part='0' number='25' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D10</PIN>
+					<PIN pos='22.00000,64.00000' which='0' elec='0' direction='3' part='0' number='26' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D9</PIN>
+					<PIN pos='22.00000,66.00000' which='0' elec='0' direction='3' part='0' number='27' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D8</PIN>
+					<PIN pos='22.00000,68.00000' which='0' elec='0' direction='3' part='0' number='28' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D7</PIN>
+					<PIN pos='22.00000,70.00000' which='0' elec='0' direction='3' part='0' number='29' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D6</PIN>
+					<PIN pos='22.00000,72.00000' which='0' elec='0' direction='3' part='0' number='30' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D5</PIN>
+					<PIN pos='22.00000,74.00000' which='0' elec='0' direction='3' part='0' number='31' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D4</PIN>
+					<PIN pos='22.00000,76.00000' which='0' elec='0' direction='3' part='0' number='32' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D3</PIN>
+					<PIN pos='22.00000,78.00000' which='0' elec='0' direction='3' part='0' number='33' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D2</PIN>
+					<PIN pos='22.00000,80.00000' which='0' elec='0' direction='3' part='0' number='34' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D1</PIN>
+					<PIN pos='22.00000,82.00000' which='0' elec='0' direction='3' part='0' number='35' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D0</PIN>
+					<PIN pos='22.00000,84.00000' which='0' elec='0' direction='3' part='0' number='36' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>NC</PIN>
+					<PIN pos='22.00000,86.00000' which='0' elec='0' direction='3' part='0' number='37' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>LEDK</PIN>
+					<PIN pos='22.00000,88.00000' which='0' elec='0' direction='3' part='0' number='38' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>LEDA</PIN>
+					<RECTANGLE a='38.00000,14.00000' b='93.80000,88.00000' style='3' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='808080'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='38.00000,14.00000' b='93.80000,88.00000' style='3' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='808080'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='37.29588,178.03524' b='37.55588,178.31524' style='3' fill='8' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<RECTANGLE a='28.00000,10.00000' b='98.00000,92.00000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+		<PIN pos='22.00000,14.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM3</PIN>
+		<PIN pos='22.00000,16.00000' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM2</PIN>
+		<PIN pos='22.00000,18.00000' which='0' elec='0' direction='3' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM1</PIN>
+		<PIN pos='22.00000,20.00000' which='0' elec='0' direction='3' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>IM0</PIN>
+		<PIN pos='22.00000,22.00000' which='0' elec='0' direction='3' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>EXTC</PIN>
+		<PIN pos='22.00000,24.00000' which='0' elec='0' direction='3' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>RES_N</PIN>
+		<PIN pos='22.00000,26.00000' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>CS_N</PIN>
+		<PIN pos='22.00000,28.00000' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D/C_N</PIN>
+		<PIN pos='22.00000,30.00000' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>WR_N</PIN>
+		<PIN pos='22.00000,32.00000' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>RD_N</PIN>
+		<PIN pos='22.00000,34.00000' which='0' elec='0' direction='3' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>SDI/SDA</PIN>
+		<PIN pos='22.00000,36.00000' which='0' elec='0' direction='3' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>SDO</PIN>
+		<PIN pos='22.00000,38.00000' which='0' elec='1' direction='3' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>TE</PIN>
+		<PIN pos='22.00000,40.00000' which='0' elec='0' direction='3' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DOTCLK</PIN>
+		<PIN pos='22.00000,42.00000' which='0' elec='0' direction='3' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VSYNC</PIN>
+		<PIN pos='22.00000,44.00000' which='0' elec='0' direction='3' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>HSYNC</PIN>
+		<PIN pos='22.00000,46.00000' which='0' elec='0' direction='3' part='0' number='17' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DE</PIN>
+		<PIN pos='22.00000,48.00000' which='0' elec='0' direction='3' part='0' number='18' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D17</PIN>
+		<PIN pos='22.00000,50.00000' which='0' elec='0' direction='3' part='0' number='19' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D16</PIN>
+		<PIN pos='22.00000,52.00000' which='0' elec='0' direction='3' part='0' number='20' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D15</PIN>
+		<PIN pos='22.00000,54.00000' which='0' elec='0' direction='3' part='0' number='21' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D14</PIN>
+		<PIN pos='22.00000,56.00000' which='0' elec='0' direction='3' part='0' number='22' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D13</PIN>
+		<PIN pos='22.00000,58.00000' which='0' elec='0' direction='3' part='0' number='23' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D12</PIN>
+		<PIN pos='22.00000,60.00000' which='0' elec='0' direction='3' part='0' number='24' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D11</PIN>
+		<PIN pos='22.00000,62.00000' which='0' elec='0' direction='3' part='0' number='25' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D10</PIN>
+		<PIN pos='22.00000,64.00000' which='0' elec='0' direction='3' part='0' number='26' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D9</PIN>
+		<PIN pos='22.00000,66.00000' which='0' elec='0' direction='3' part='0' number='27' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D8</PIN>
+		<PIN pos='22.00000,68.00000' which='0' elec='0' direction='3' part='0' number='28' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D7</PIN>
+		<PIN pos='22.00000,70.00000' which='0' elec='0' direction='3' part='0' number='29' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D6</PIN>
+		<PIN pos='22.00000,72.00000' which='0' elec='0' direction='3' part='0' number='30' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D5</PIN>
+		<PIN pos='22.00000,74.00000' which='0' elec='0' direction='3' part='0' number='31' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D4</PIN>
+		<PIN pos='22.00000,76.00000' which='0' elec='0' direction='3' part='0' number='32' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D3</PIN>
+		<PIN pos='22.00000,78.00000' which='0' elec='0' direction='3' part='0' number='33' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D2</PIN>
+		<PIN pos='22.00000,80.00000' which='0' elec='0' direction='3' part='0' number='34' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D1</PIN>
+		<PIN pos='22.00000,82.00000' which='0' elec='0' direction='3' part='0' number='35' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D0</PIN>
+		<PIN pos='22.00000,84.00000' which='0' elec='0' direction='3' part='0' number='36' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>NC</PIN>
+		<PIN pos='22.00000,86.00000' which='0' elec='0' direction='3' part='0' number='37' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>LEDK</PIN>
+		<PIN pos='22.00000,88.00000' which='0' elec='0' direction='3' part='0' number='38' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>LEDA</PIN>
+		<RECTANGLE a='38.00000,14.00000' b='93.80000,88.00000' style='3' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='808080'/>
+		<RECTANGLE a='38.09588,137.83524' b='38.35588,138.11524' style='3' fill='8' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+		<SYMBOL id='1' pos='245.37800,169.03400' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='TFT10CN240320M7CUN2' show='1' pos='1.00000,-80.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='LCD' show='1' pos='1.00000,-77.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-72.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='TFT10CN240320M7CUN2.DLL' show='0' pos='1.00000,-70.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-68.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-75.20000'/>
+			<FIELD id='100' pt='1' extra='' description='内存窗口中显示的起始页（范围0~319）' type='1' name='起始页' value='0' show='0' pos='1.00000,-65.60000'/>
+			<FIELD id='101' pt='1' extra='' description='从起始页开始显示多少页（范围1~320,警告：建议不超过64，以避免加载时间过长）' type='1' name='页数量' value='1l' show='0' pos='1.00000,-63.20000'/>
+			<FIELD id='102' pt='4' extra='Bitmap文件(*.bmp)|*.bmp' description='指定初始化到GRAM的图片' type='1' name='图片' value='D:\test\tft240320_dzzzzcn.bmp' show='0' pos='1.00000,-60.80000'/>
+			<FIELD id='103' pt='5' extra='RGB666,RGB565' description='图片初始化到GRAM的像素格式' type='1' name='像素格式' value='RGB666' show='0' pos='1.00000,-58.40000'/>
+			<PRODATA number='1' type='0' typeex='0' lldata='17' info='退出睡眠模式'/>
+			<PRODATA number='2' type='0' typeex='0' lldata='41' info='打开显示'/>
+			<PRODATA number='3' type='0' typeex='0' lldata='44' info='写存储器'/>
+			<PRODATA number='4' type='1' typeex='0' lldata='258048' info='以下连续写入红色（RGB666）'/>
+			<PRODATA number='5' type='1' typeex='0' lldata='4032' info='绿色'/>
+			<PRODATA number='6' type='1' typeex='0' lldata='63' info='蓝色'/>
+			<PRODATA number='7' type='1' typeex='0' lldata='258048' info=''/>
+			<PRODATA number='8' type='1' typeex='0' lldata='4032' info=''/>
+			<PRODATA number='9' type='1' typeex='0' lldata='63' info=''/>
+			<PRODATA number='10' type='1' typeex='0' lldata='258048' info=''/>
+			<PRODATA number='11' type='1' typeex='0' lldata='4032' info=''/>
+			<PRODATA number='12' type='1' typeex='0' lldata='63' info=''/>
+		</SYMBOL>
+		<NOTE_TEXT a='41.37858,127.41217' b='63.41300,149.72977' direction='3' style='4' fill='9' font='3' color='000000' border_style='1' lstyle='0' lthickness='1' lcolor='0000FF' fstyle='0' fcolor='AFFFFF'>左侧有一个小图形用于创建像素图形</NOTE_TEXT>
+	</VisualCom>
+</VisualComSheets>

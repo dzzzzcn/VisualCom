@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-15</HEIGHT>
+			<WIDTH>7</WIDTH>
+			<WEIGHT>700</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='3'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<FILL id='4'>
+			<INDEX>0</INDEX>
+			<COLOR>808000</COLOR>
+		</FILL>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>3B3B3B</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>DS1302</NAME>
+			<REF type='0'>U</REF>
+			<DESCRIPTION>Trickle-Charge TimeKeeping Chip</DESCRIPTION>
+			<PPP>3</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>DS1302</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>U</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>DS1302S02B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>日期</NAME>
+				<DEFAULT>0000ff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>时间</NAME>
+				<DEFAULT>00ffff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>星期</NAME>
+				<DEFAULT>00ff00</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='136.00000,102.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='136.00000,96.00000' b='110.00000,76.00000' style='3' fill='4' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='808000'/>
+					<RECTANGLE a='134.00000,88.00000' b='112.00000,78.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+					<PIN pos='116.00000,102.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VCC2</PIN>
+					<PIN pos='118.00000,102.00000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>X1</PIN>
+					<PIN pos='120.00000,102.00000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>X2</PIN>
+					<PIN pos='122.00000,102.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>GND</PIN>
+					<PIN pos='124.00000,102.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>CE</PIN>
+					<PIN pos='126.00000,102.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>I/O</PIN>
+					<PIN pos='128.00000,102.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>SCLK</PIN>
+					<PIN pos='130.00000,102.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VCC1</PIN>
+					<TEXT pos='117.06000,82.00000' direction='3' font='3' color='0000FF'>2022-09-25</TEXT>
+					<TEXT pos='120.40000,84.88000' direction='3' font='3' color='00FFFF'>11:14:39</TEXT>
+					<TEXT pos='126.04000,87.80000' direction='3' font='3' color='00FF00'>SUN</TEXT>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='136.00000,126.00000' b='114.00000,116.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+				</VisualCom>
+				<VisualCom>
+					<TEXT pos='117.06000,138.00000' direction='3' font='3' color='0000FF'>2022-09-25</TEXT>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<RECTANGLE a='136.00000,96.00000' b='110.00000,76.00000' style='3' fill='4' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='808000'/>
+		<RECTANGLE a='134.00000,88.00000' b='112.00000,78.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<PIN pos='116.00000,102.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VCC2</PIN>
+		<PIN pos='118.00000,102.00000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>X1</PIN>
+		<PIN pos='120.00000,102.00000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>X2</PIN>
+		<PIN pos='122.00000,102.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>GND</PIN>
+		<PIN pos='124.00000,102.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>CE</PIN>
+		<PIN pos='126.00000,102.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>I/O</PIN>
+		<PIN pos='128.00000,102.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>SCLK</PIN>
+		<PIN pos='130.00000,102.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VCC1</PIN>
+		<TEXT pos='117.06000,82.00000' direction='3' font='3' color='0000FF'>2022-09-25</TEXT>
+		<TEXT pos='120.40000,84.88000' direction='3' font='3' color='00FFFF'>11:14:39</TEXT>
+		<TEXT pos='126.04000,87.80000' direction='3' font='3' color='00FF00'>SUN</TEXT>
+		<RECTANGLE a='136.00000,126.00000' b='114.00000,116.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<TEXT pos='117.06000,138.00000' direction='3' font='3' color='0000FF'>2022-09-25</TEXT>
+		<SYMBOL id='1' pos='197.18225,98.80828' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='DS1302' show='-1' pos='1.00000,-24.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='U' show='-1' pos='1.00000,-21.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-16.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='DS1302S02B.DLL' show='0' pos='1.00000,-14.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-12.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='-1' pos='1.00000,-19.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-9.60000'/>
+			<FIELD id='101' pt='3' extra='' description='' type='1' name='日期' value='0000ff' show='0' pos='1.00000,-7.20000'/>
+			<FIELD id='102' pt='3' extra='' description='' type='1' name='时间' value='00ffff' show='0' pos='1.00000,-4.80000'/>
+			<FIELD id='103' pt='3' extra='' description='' type='1' name='星期' value='00ff00' show='0' pos='1.00000,-2.40000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='36352' info='解锁写保护'/>
+			<PRODATA number='2' type='1' typeex='0' lldata='35872' info='写年份'/>
+			<PRODATA number='3' type='1' typeex='0' lldata='35330' info='写星期'/>
+			<PRODATA number='4' type='1' typeex='0' lldata='34833' info='写月份'/>
+			<PRODATA number='5' type='1' typeex='0' lldata='34320' info='写日期'/>
+			<PRODATA number='6' type='1' typeex='0' lldata='33809' info='写小时'/>
+			<PRODATA number='7' type='1' typeex='0' lldata='33297' info='写分钟'/>
+			<PRODATA number='8' type='1' typeex='0' lldata='32802' info='写秒钟，并启动计数'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='196.42271,139.63301' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='DS1302' show='1' pos='1.00000,-24.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='U' show='1' pos='1.00000,-21.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-16.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='DS1302S02B.DLL' show='0' pos='1.00000,-14.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-12.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-19.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-9.60000'/>
+			<FIELD id='101' pt='3' extra='' description='' type='1' name='日期' value='ffff00' show='0' pos='1.00000,-7.20000'/>
+			<FIELD id='102' pt='3' extra='' description='' type='1' name='时间' value='ff00ff' show='0' pos='1.00000,-4.80000'/>
+			<FIELD id='103' pt='3' extra='' description='' type='1' name='星期' value='ffff' show='0' pos='1.00000,-2.40000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='36352' info='解锁写保护'/>
+			<PRODATA number='2' type='1' typeex='0' lldata='35872' info='写年份'/>
+			<PRODATA number='3' type='1' typeex='0' lldata='35330' info='写星期'/>
+			<PRODATA number='4' type='1' typeex='0' lldata='34833' info='写月份'/>
+			<PRODATA number='5' type='1' typeex='0' lldata='34320' info='写日期'/>
+			<PRODATA number='6' type='1' typeex='0' lldata='33809' info='写小时'/>
+			<PRODATA number='7' type='1' typeex='0' lldata='33297' info='写分钟'/>
+			<PRODATA number='8' type='1' typeex='0' lldata='32802' info='写秒钟，并启动计数'/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

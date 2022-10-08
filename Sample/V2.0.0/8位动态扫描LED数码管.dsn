@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='4'>
+			<INDEX>0</INDEX>
+			<COLOR>3B3B3B</COLOR>
+		</FILL>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>A4A0A0</COLOR>
+		</FILL>
+		<SYMBOLDEF id='3'>
+			<NAME type='0'>SLED8X1D01S02B</NAME>
+			<REF type='0'>D</REF>
+			<DESCRIPTION>7-Segment Display, 8 digit, Dynamic Scaling</DESCRIPTION>
+			<PPP>11</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>SLED8X1D01S02B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>D</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>SLEDNX1D01S02B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT>8X1</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>段</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION>发光段的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>段边框</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>发光段的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>结构</NAME>
+				<DEFAULT>共阴</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>共阴,共阳</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>类型</NAME>
+				<DEFAULT>下小数点</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>下小数点,中冒号,上小数点</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='240.44000,167.69200'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='121.44000,135.69200' b='240.44000,161.69200' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+					<POLYGON pos='126.40000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='124.60000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='133.20000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='125.40000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='123.00000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='131.60000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='123.40000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='136.47588,157.55855' b='134.51864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='141.00000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='139.20000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='147.80000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='140.00000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='137.60000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='146.20000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='138.00000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='151.07588,157.55855' b='149.11864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='155.80000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='154.00000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='162.60000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='154.80000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='152.40000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='161.00000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='152.80000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='165.87588,157.55855' b='163.91864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='170.40000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='168.60000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='177.20000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='169.40000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='167.00000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='175.60000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='167.40000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='180.47588,157.55855' b='178.51864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='184.80000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='183.00000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='191.60000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='183.80000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='181.40000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='190.00000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='181.80000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='194.87588,157.55855' b='192.91864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='199.40000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='197.60000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='206.20000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='198.40000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='196.00000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='204.60000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='196.40000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='209.47588,157.55855' b='207.51864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='214.20000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='212.40000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='221.00000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='213.20000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='210.80000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='219.40000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='211.20000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='224.27588,157.55855' b='222.31864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<POLYGON pos='228.80000,137.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.53115,2.12777' arc='0'/>
+						<POINT pos='7.94948,2.12838' arc='0'/>
+						<POINT pos='9.36719,0.93622' arc='0'/>
+						<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+						<POINT pos='0.97097,0.18049' arc='0'/>
+						<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+						<POINT pos='1.42272,2.07007' arc='0'/>
+						<POINT pos='1.42272,2.07515' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='227.00000,138.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.81628,0.01762' arc='0'/>
+						<POINT pos='3.07477,1.55782' arc='0'/>
+						<POINT pos='1.88457,8.38792' arc='0'/>
+						<POINT pos='0.81083,9.33222' arc='0'/>
+						<POINT pos='0.03367,8.39759' arc='0'/>
+						<POINT pos='1.34700,0.75869' arc='0'/>
+						<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+					</POLYGON>
+					<POLYGON pos='235.60000,138.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.65154,0.08426' arc='0'/>
+						<POINT pos='1.23943,1.29319' arc='0'/>
+						<POINT pos='0.11205,8.01521' arc='0'/>
+						<POINT pos='0.79778,8.93968' arc='0'/>
+						<POINT pos='0.90953,8.93968' arc='0'/>
+						<POINT pos='1.88480,8.06600' arc='0'/>
+						<POINT pos='2.99508,1.35442' arc='0'/>
+						<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+					</POLYGON>
+					<POLYGON pos='227.80000,146.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09215,1.05082' arc='0'/>
+						<POINT pos='1.14869,0.13651' arc='0'/>
+						<POINT pos='7.73209,0.13709' arc='0'/>
+						<POINT pos='8.50418,1.07681' arc='0'/>
+						<POINT pos='7.45032,2.00667' arc='0'/>
+						<POINT pos='0.83108,2.00339' arc='0'/>
+						<POINT pos='0.08947,1.04844' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='225.40000,147.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.34362,0.16988' arc='0'/>
+						<POINT pos='1.25660,1.12483' arc='0'/>
+						<POINT pos='0.07589,8.07279' arc='0'/>
+						<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+						<POINT pos='1.91807,8.00180' arc='0'/>
+						<POINT pos='3.11516,1.08608' arc='0'/>
+						<POINT pos='2.35831,0.17177' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='234.00000,148.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.38594,0.02810' arc='0'/>
+						<POINT pos='1.33956,0.95766' arc='0'/>
+						<POINT pos='0.18784,7.73290' arc='0'/>
+						<POINT pos='1.36245,9.22718' arc='0'/>
+						<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+						<POINT pos='3.15313,0.97188' arc='0'/>
+						<POINT pos='2.40136,0.02709' arc='0'/>
+					</POLYGON>
+					<POLYGON pos='225.80000,155.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.14913,1.42488' arc='0'/>
+						<POINT pos='1.60695,0.10929' arc='0'/>
+						<POINT pos='8.27277,0.11755' arc='0'/>
+						<POINT pos='9.43089,1.53473' arc='0'/>
+						<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+						<POINT pos='1.17421,1.99398' arc='0'/>
+						<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+					</POLYGON>
+					<ELLIPSE a='238.87588,157.55855' b='236.91864,155.54980' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<PIN pos='148.94000,167.69200' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>1</PIN>
+					<PIN pos='146.94000,167.69200' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>2</PIN>
+					<PIN pos='144.94000,167.69200' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>3</PIN>
+					<PIN pos='142.94000,167.69200' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>4</PIN>
+					<PIN pos='140.94000,167.69200' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>5</PIN>
+					<PIN pos='138.94000,167.69200' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>6</PIN>
+					<PIN pos='136.94000,167.69200' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>7</PIN>
+					<PIN pos='134.94000,167.69200' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='0' centre_name='0' thickness='2'>8</PIN>
+					<PIN pos='180.94000,167.69200' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A</PIN>
+					<PIN pos='178.94000,167.69200' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>B</PIN>
+					<PIN pos='176.94000,167.69200' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>C</PIN>
+					<PIN pos='174.94000,167.69200' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D</PIN>
+					<PIN pos='172.94000,167.69200' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E</PIN>
+					<PIN pos='170.94000,167.69200' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>F</PIN>
+					<PIN pos='168.94000,167.69200' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>G</PIN>
+					<PIN pos='166.94000,167.69200' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DP</PIN>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='121.44000,135.69200' b='240.44000,161.69200' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='20.80000,99.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.48180,2.02394' arc='0'/>
+						<POINT pos='7.90013,2.02455' arc='0'/>
+						<POINT pos='9.31784,0.83239' arc='0'/>
+						<POINT pos='8.24683,0.07554' arc='0' control='8.78390,0.17970'/>
+						<POINT pos='0.92162,0.07666' arc='0'/>
+						<POINT pos='0.12471,0.40175' arc='0' control='0.48402,0.12556'/>
+						<POINT pos='1.37337,1.96624' arc='0'/>
+						<POINT pos='1.37337,1.97132' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='27.60000,100.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.60219,0.18043' arc='0'/>
+						<POINT pos='1.19008,1.38936' arc='0'/>
+						<POINT pos='0.06270,8.11138' arc='0'/>
+						<POINT pos='0.74843,9.03585' arc='0'/>
+						<POINT pos='0.86018,9.03585' arc='0'/>
+						<POINT pos='1.83545,8.16217' arc='0'/>
+						<POINT pos='2.94573,1.45059' arc='0'/>
+						<POINT pos='2.60833,0.18366' arc='0' control='3.03776,0.55085'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='26.00000,109.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.33659,0.12427' arc='0'/>
+						<POINT pos='1.29021,1.05383' arc='0'/>
+						<POINT pos='0.13849,7.82907' arc='0'/>
+						<POINT pos='1.31310,9.32335' arc='0'/>
+						<POINT pos='1.81089,8.57666' arc='0' control='1.66730,9.02907'/>
+						<POINT pos='3.10378,1.06805' arc='0'/>
+						<POINT pos='2.35201,0.12326' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='17.80000,117.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.09978,1.32105' arc='0'/>
+						<POINT pos='1.55760,0.00546' arc='0'/>
+						<POINT pos='8.22342,0.01372' arc='0'/>
+						<POINT pos='9.38154,1.43090' arc='0'/>
+						<POINT pos='8.49932,1.88880' arc='0' control='8.99682,1.82830'/>
+						<POINT pos='1.12486,1.89015' arc='0'/>
+						<POINT pos='0.08863,1.31108' arc='0' control='0.58805,1.80261'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='17.40000,109.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='2.29427,0.06605' arc='0'/>
+						<POINT pos='1.20725,1.02100' arc='0'/>
+						<POINT pos='0.02654,7.96896' arc='0'/>
+						<POINT pos='0.37642,9.17991' arc='0' control='0.01771,8.57301'/>
+						<POINT pos='1.86872,7.89797' arc='0'/>
+						<POINT pos='3.06581,0.98225' arc='0'/>
+						<POINT pos='2.30896,0.06794' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='18.80000,99.60000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='1.96693,0.11379' arc='0'/>
+						<POINT pos='3.22542,1.65399' arc='0'/>
+						<POINT pos='2.03522,8.48409' arc='0'/>
+						<POINT pos='0.96148,9.42839' arc='0'/>
+						<POINT pos='0.18432,8.49376' arc='0'/>
+						<POINT pos='1.49765,0.85486' arc='0'/>
+						<POINT pos='1.96497,0.10817' arc='0' control='1.62365,0.39205'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<POLYGON pos='19.80000,108.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+						<POINT pos='0.04280,0.94699' arc='0'/>
+						<POINT pos='1.09934,0.03268' arc='0'/>
+						<POINT pos='7.68274,0.03326' arc='0'/>
+						<POINT pos='8.45483,0.97298' arc='0'/>
+						<POINT pos='7.40097,1.90284' arc='0'/>
+						<POINT pos='0.78173,1.89956' arc='0'/>
+						<POINT pos='0.04012,0.94461' arc='0'/>
+					</POLYGON>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='30.82653,118.85472' b='28.86929,116.84597' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='31.63518,113.46921' b='29.67794,111.46046' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='32.68494,107.28060' b='30.72770,105.27185' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<RECTANGLE a='15.44000,15.22000' b='48.44000,41.22000' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<POLYGON pos='20.40000,17.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.05577' arc='0'/>
+			<POINT pos='7.94948,2.05638' arc='0'/>
+			<POINT pos='9.36719,0.86422' arc='0'/>
+			<POINT pos='8.29618,0.10737' arc='0' control='8.83325,0.21153'/>
+			<POINT pos='0.97097,0.10849' arc='0'/>
+			<POINT pos='0.17406,0.43358' arc='0' control='0.53337,0.15739'/>
+			<POINT pos='1.42272,1.99807' arc='0'/>
+			<POINT pos='1.42272,2.00315' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='18.60000,17.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.14562' arc='0'/>
+			<POINT pos='3.07477,1.68582' arc='0'/>
+			<POINT pos='1.88457,8.51592' arc='0'/>
+			<POINT pos='0.81083,9.46022' arc='0'/>
+			<POINT pos='0.03367,8.52559' arc='0'/>
+			<POINT pos='1.34700,0.88669' arc='0'/>
+			<POINT pos='1.81432,0.14000' arc='0' control='1.47300,0.42388'/>
+		</POLYGON>
+		<POLYGON pos='27.20000,18.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.01226' arc='0'/>
+			<POINT pos='1.23943,1.22119' arc='0'/>
+			<POINT pos='0.11205,7.94321' arc='0'/>
+			<POINT pos='0.79778,8.86768' arc='0'/>
+			<POINT pos='0.90953,8.86768' arc='0'/>
+			<POINT pos='1.88480,7.99400' arc='0'/>
+			<POINT pos='2.99508,1.28242' arc='0'/>
+			<POINT pos='2.65768,0.01549' arc='0' control='3.08711,0.38268'/>
+		</POLYGON>
+		<POLYGON pos='19.40000,26.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,0.97882' arc='0'/>
+			<POINT pos='1.14869,0.06451' arc='0'/>
+			<POINT pos='7.73209,0.06509' arc='0'/>
+			<POINT pos='8.50418,1.00481' arc='0'/>
+			<POINT pos='7.45032,1.93467' arc='0'/>
+			<POINT pos='0.83108,1.93139' arc='0'/>
+			<POINT pos='0.08947,0.97644' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='17.00000,27.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.09788' arc='0'/>
+			<POINT pos='1.25660,1.05283' arc='0'/>
+			<POINT pos='0.07589,8.00079' arc='0'/>
+			<POINT pos='0.42577,9.21174' arc='0' control='0.06706,8.60484'/>
+			<POINT pos='1.91807,7.92980' arc='0'/>
+			<POINT pos='3.11516,1.01408' arc='0'/>
+			<POINT pos='2.35831,0.09977' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='25.60000,27.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.15610' arc='0'/>
+			<POINT pos='1.33956,1.08566' arc='0'/>
+			<POINT pos='0.18784,7.86090' arc='0'/>
+			<POINT pos='1.36245,9.35518' arc='0'/>
+			<POINT pos='1.86024,8.60849' arc='0' control='1.71665,9.06090'/>
+			<POINT pos='3.15313,1.09988' arc='0'/>
+			<POINT pos='2.40136,0.15509' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='17.40000,35.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.35288' arc='0'/>
+			<POINT pos='1.60695,0.03729' arc='0'/>
+			<POINT pos='8.27277,0.04555' arc='0'/>
+			<POINT pos='9.43089,1.46273' arc='0'/>
+			<POINT pos='8.54867,1.92063' arc='0' control='9.04617,1.86013'/>
+			<POINT pos='1.17421,1.92198' arc='0'/>
+			<POINT pos='0.13798,1.34291' arc='0' control='0.63740,1.83444'/>
+		</POLYGON>
+		<ELLIPSE a='30.47588,37.08655' b='28.51864,35.07780' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<PIN pos='20.94000,47.22000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>1</PIN>
+		<PIN pos='18.94000,47.22000' which='0' elec='0' direction='0' part='0' number='10' show='3' length='31' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>2</PIN>
+		<PIN pos='44.94000,47.22000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A</PIN>
+		<PIN pos='42.94000,47.22000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>B</PIN>
+		<PIN pos='40.94000,47.22000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>C</PIN>
+		<PIN pos='38.94000,47.22000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D</PIN>
+		<PIN pos='36.94000,47.22000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E</PIN>
+		<PIN pos='34.94000,47.22000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>F</PIN>
+		<PIN pos='32.94000,47.22000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>G</PIN>
+		<PIN pos='30.94000,47.22000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DP</PIN>
+		<POLYGON pos='35.00000,17.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.05577' arc='0'/>
+			<POINT pos='7.94948,2.05638' arc='0'/>
+			<POINT pos='9.36719,0.86422' arc='0'/>
+			<POINT pos='8.29618,0.10737' arc='0' control='8.83325,0.21153'/>
+			<POINT pos='0.97097,0.10849' arc='0'/>
+			<POINT pos='0.17406,0.43358' arc='0' control='0.53337,0.15739'/>
+			<POINT pos='1.42272,1.99807' arc='0'/>
+			<POINT pos='1.42272,2.00315' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='33.20000,17.80000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.14562' arc='0'/>
+			<POINT pos='3.07477,1.68582' arc='0'/>
+			<POINT pos='1.88457,8.51592' arc='0'/>
+			<POINT pos='0.81083,9.46022' arc='0'/>
+			<POINT pos='0.03367,8.52559' arc='0'/>
+			<POINT pos='1.34700,0.88669' arc='0'/>
+			<POINT pos='1.81432,0.14000' arc='0' control='1.47300,0.42388'/>
+		</POLYGON>
+		<POLYGON pos='41.80000,18.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.01226' arc='0'/>
+			<POINT pos='1.23943,1.22119' arc='0'/>
+			<POINT pos='0.11205,7.94321' arc='0'/>
+			<POINT pos='0.79778,8.86768' arc='0'/>
+			<POINT pos='0.90953,8.86768' arc='0'/>
+			<POINT pos='1.88480,7.99400' arc='0'/>
+			<POINT pos='2.99508,1.28242' arc='0'/>
+			<POINT pos='2.65768,0.01549' arc='0' control='3.08711,0.38268'/>
+		</POLYGON>
+		<POLYGON pos='34.00000,26.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,0.97882' arc='0'/>
+			<POINT pos='1.14869,0.06451' arc='0'/>
+			<POINT pos='7.73209,0.06509' arc='0'/>
+			<POINT pos='8.50418,1.00481' arc='0'/>
+			<POINT pos='7.45032,1.93467' arc='0'/>
+			<POINT pos='0.83108,1.93139' arc='0'/>
+			<POINT pos='0.08947,0.97644' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='31.60000,27.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.09788' arc='0'/>
+			<POINT pos='1.25660,1.05283' arc='0'/>
+			<POINT pos='0.07589,8.00079' arc='0'/>
+			<POINT pos='0.42577,9.21174' arc='0' control='0.06706,8.60484'/>
+			<POINT pos='1.91807,7.92980' arc='0'/>
+			<POINT pos='3.11516,1.01408' arc='0'/>
+			<POINT pos='2.35831,0.09977' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='40.20000,27.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.15610' arc='0'/>
+			<POINT pos='1.33956,1.08566' arc='0'/>
+			<POINT pos='0.18784,7.86090' arc='0'/>
+			<POINT pos='1.36245,9.35518' arc='0'/>
+			<POINT pos='1.86024,8.60849' arc='0' control='1.71665,9.06090'/>
+			<POINT pos='3.15313,1.09988' arc='0'/>
+			<POINT pos='2.40136,0.15509' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='32.00000,35.40000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.35288' arc='0'/>
+			<POINT pos='1.60695,0.03729' arc='0'/>
+			<POINT pos='8.27277,0.04555' arc='0'/>
+			<POINT pos='9.43089,1.46273' arc='0'/>
+			<POINT pos='8.54867,1.92063' arc='0' control='9.04617,1.86013'/>
+			<POINT pos='1.17421,1.92198' arc='0'/>
+			<POINT pos='0.13798,1.34291' arc='0' control='0.63740,1.83444'/>
+		</POLYGON>
+		<ELLIPSE a='45.07588,37.08655' b='43.11864,35.07780' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.63518,113.46921' b='29.67794,111.46046' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='32.68494,107.28060' b='30.72770,105.27185' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='20.80000,99.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.48180,2.02394' arc='0'/>
+			<POINT pos='7.90013,2.02455' arc='0'/>
+			<POINT pos='9.31784,0.83239' arc='0'/>
+			<POINT pos='8.24683,0.07554' arc='0' control='8.78390,0.17970'/>
+			<POINT pos='0.92162,0.07666' arc='0'/>
+			<POINT pos='0.12471,0.40175' arc='0' control='0.48402,0.12556'/>
+			<POINT pos='1.37337,1.96624' arc='0'/>
+			<POINT pos='1.37337,1.97132' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='18.80000,99.60000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.96693,0.11379' arc='0'/>
+			<POINT pos='3.22542,1.65399' arc='0'/>
+			<POINT pos='2.03522,8.48409' arc='0'/>
+			<POINT pos='0.96148,9.42839' arc='0'/>
+			<POINT pos='0.18432,8.49376' arc='0'/>
+			<POINT pos='1.49765,0.85486' arc='0'/>
+			<POINT pos='1.96497,0.10817' arc='0' control='1.62365,0.39205'/>
+		</POLYGON>
+		<POLYGON pos='27.60000,100.00000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.60219,0.18043' arc='0'/>
+			<POINT pos='1.19008,1.38936' arc='0'/>
+			<POINT pos='0.06270,8.11138' arc='0'/>
+			<POINT pos='0.74843,9.03585' arc='0'/>
+			<POINT pos='0.86018,9.03585' arc='0'/>
+			<POINT pos='1.83545,8.16217' arc='0'/>
+			<POINT pos='2.94573,1.45059' arc='0'/>
+			<POINT pos='2.60833,0.18366' arc='0' control='3.03776,0.55085'/>
+		</POLYGON>
+		<POLYGON pos='19.80000,108.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.04280,0.94699' arc='0'/>
+			<POINT pos='1.09934,0.03268' arc='0'/>
+			<POINT pos='7.68274,0.03326' arc='0'/>
+			<POINT pos='8.45483,0.97298' arc='0'/>
+			<POINT pos='7.40097,1.90284' arc='0'/>
+			<POINT pos='0.78173,1.89956' arc='0'/>
+			<POINT pos='0.04012,0.94461' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='17.40000,109.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.29427,0.06605' arc='0'/>
+			<POINT pos='1.20725,1.02100' arc='0'/>
+			<POINT pos='0.02654,7.96896' arc='0'/>
+			<POINT pos='0.37642,9.17991' arc='0' control='0.01771,8.57301'/>
+			<POINT pos='1.86872,7.89797' arc='0'/>
+			<POINT pos='3.06581,0.98225' arc='0'/>
+			<POINT pos='2.30896,0.06794' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='26.00000,109.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.33659,0.12427' arc='0'/>
+			<POINT pos='1.29021,1.05383' arc='0'/>
+			<POINT pos='0.13849,7.82907' arc='0'/>
+			<POINT pos='1.31310,9.32335' arc='0'/>
+			<POINT pos='1.81089,8.57666' arc='0' control='1.66730,9.02907'/>
+			<POINT pos='3.10378,1.06805' arc='0'/>
+			<POINT pos='2.35201,0.12326' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='17.80000,117.20000' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09978,1.32105' arc='0'/>
+			<POINT pos='1.55760,0.00546' arc='0'/>
+			<POINT pos='8.22342,0.01372' arc='0'/>
+			<POINT pos='9.38154,1.43090' arc='0'/>
+			<POINT pos='8.49932,1.88880' arc='0' control='8.99682,1.82830'/>
+			<POINT pos='1.12486,1.89015' arc='0'/>
+			<POINT pos='0.08863,1.31108' arc='0' control='0.58805,1.80261'/>
+		</POLYGON>
+		<ELLIPSE a='30.82653,118.85472' b='28.86929,116.84597' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<RECTANGLE a='83.58400,57.61400' b='202.58400,83.61400' style='2' fill='4' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<POLYGON pos='88.54400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='86.74400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='95.34400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='87.54400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='85.14400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='93.74400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='85.54400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='98.61988,79.48055' b='96.66264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='103.14400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='101.34400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='109.94400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='102.14400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='99.74400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='108.34400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='100.14400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='113.21988,79.48055' b='111.26264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='117.94400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='116.14400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='124.74400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='116.94400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='114.54400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='123.14400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='114.94400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='128.01988,79.48055' b='126.06264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='132.54400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='130.74400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='139.34400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='131.54400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='129.14400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='137.74400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='129.54400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='142.61988,79.48055' b='140.66264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='146.94400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='145.14400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='153.74400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='145.94400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='143.54400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='152.14400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='143.94400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='157.01988,79.48055' b='155.06264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='161.54400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='159.74400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='168.34400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='160.54400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='158.14400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='166.74400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='158.54400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='171.61988,79.48055' b='169.66264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='176.34400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='174.54400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='183.14400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='175.34400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='172.94400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='181.54400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='173.34400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='186.41988,79.48055' b='184.46264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<POLYGON pos='190.94400,59.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.53115,2.12777' arc='0'/>
+			<POINT pos='7.94948,2.12838' arc='0'/>
+			<POINT pos='9.36719,0.93622' arc='0'/>
+			<POINT pos='8.29618,0.17937' arc='0' control='8.83325,0.28353'/>
+			<POINT pos='0.97097,0.18049' arc='0'/>
+			<POINT pos='0.17406,0.50558' arc='0' control='0.53337,0.22939'/>
+			<POINT pos='1.42272,2.07007' arc='0'/>
+			<POINT pos='1.42272,2.07515' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='189.14400,60.32200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='1.81628,0.01762' arc='0'/>
+			<POINT pos='3.07477,1.55782' arc='0'/>
+			<POINT pos='1.88457,8.38792' arc='0'/>
+			<POINT pos='0.81083,9.33222' arc='0'/>
+			<POINT pos='0.03367,8.39759' arc='0'/>
+			<POINT pos='1.34700,0.75869' arc='0'/>
+			<POINT pos='1.81432,0.01200' arc='0' control='1.47300,0.29588'/>
+		</POLYGON>
+		<POLYGON pos='197.74400,60.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.65154,0.08426' arc='0'/>
+			<POINT pos='1.23943,1.29319' arc='0'/>
+			<POINT pos='0.11205,8.01521' arc='0'/>
+			<POINT pos='0.79778,8.93968' arc='0'/>
+			<POINT pos='0.90953,8.93968' arc='0'/>
+			<POINT pos='1.88480,8.06600' arc='0'/>
+			<POINT pos='2.99508,1.35442' arc='0'/>
+			<POINT pos='2.65768,0.08749' arc='0' control='3.08711,0.45468'/>
+		</POLYGON>
+		<POLYGON pos='189.94400,68.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.09215,1.05082' arc='0'/>
+			<POINT pos='1.14869,0.13651' arc='0'/>
+			<POINT pos='7.73209,0.13709' arc='0'/>
+			<POINT pos='8.50418,1.07681' arc='0'/>
+			<POINT pos='7.45032,2.00667' arc='0'/>
+			<POINT pos='0.83108,2.00339' arc='0'/>
+			<POINT pos='0.08947,1.04844' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='187.54400,69.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.34362,0.16988' arc='0'/>
+			<POINT pos='1.25660,1.12483' arc='0'/>
+			<POINT pos='0.07589,8.07279' arc='0'/>
+			<POINT pos='0.42577,9.28374' arc='0' control='0.06706,8.67684'/>
+			<POINT pos='1.91807,8.00180' arc='0'/>
+			<POINT pos='3.11516,1.08608' arc='0'/>
+			<POINT pos='2.35831,0.17177' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='196.14400,69.92200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='2.38594,0.02810' arc='0'/>
+			<POINT pos='1.33956,0.95766' arc='0'/>
+			<POINT pos='0.18784,7.73290' arc='0'/>
+			<POINT pos='1.36245,9.22718' arc='0'/>
+			<POINT pos='1.86024,8.48049' arc='0' control='1.71665,8.93290'/>
+			<POINT pos='3.15313,0.97188' arc='0'/>
+			<POINT pos='2.40136,0.02709' arc='0'/>
+		</POLYGON>
+		<POLYGON pos='187.94400,77.72200' style='2' fill='5' polygon='1' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'>
+			<POINT pos='0.14913,1.42488' arc='0'/>
+			<POINT pos='1.60695,0.10929' arc='0'/>
+			<POINT pos='8.27277,0.11755' arc='0'/>
+			<POINT pos='9.43089,1.53473' arc='0'/>
+			<POINT pos='8.54867,1.99263' arc='0' control='9.04617,1.93213'/>
+			<POINT pos='1.17421,1.99398' arc='0'/>
+			<POINT pos='0.13798,1.41491' arc='0' control='0.63740,1.90644'/>
+		</POLYGON>
+		<ELLIPSE a='201.01988,79.48055' b='199.06264,77.47180' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<PIN pos='111.08400,89.61400' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>1</PIN>
+		<PIN pos='109.08400,89.61400' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>2</PIN>
+		<PIN pos='107.08400,89.61400' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>3</PIN>
+		<PIN pos='105.08400,89.61400' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>4</PIN>
+		<PIN pos='103.08400,89.61400' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>5</PIN>
+		<PIN pos='101.08400,89.61400' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>6</PIN>
+		<PIN pos='99.08400,89.61400' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>7</PIN>
+		<PIN pos='97.08400,89.61400' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='0' centre_name='0' thickness='2'>8</PIN>
+		<PIN pos='143.08400,89.61400' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A</PIN>
+		<PIN pos='141.08400,89.61400' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>B</PIN>
+		<PIN pos='139.08400,89.61400' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>C</PIN>
+		<PIN pos='137.08400,89.61400' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D</PIN>
+		<PIN pos='135.08400,89.61400' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E</PIN>
+		<PIN pos='133.08400,89.61400' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>F</PIN>
+		<PIN pos='131.08400,89.61400' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>G</PIN>
+		<PIN pos='129.08400,89.61400' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>DP</PIN>
+		<SYMBOL id='3' pos='201.96300,129.49180' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='SLED8X1D01S02B' show='1' pos='-17.02458,-34.18753'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='D' show='1' pos='-1.36686,-32.06063'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-22.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='SLEDNX1D01S02B.DLL' show='0' pos='1.00000,-20.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='8X1' show='0' pos='1.00000,-18.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-25.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-15.60000'/>
+			<FIELD id='101' pt='3' extra='' description='发光段的填充颜色' type='1' name='段' value='ffff00' show='0' pos='1.00000,-13.20000'/>
+			<FIELD id='102' pt='3' extra='' description='发光段的边框颜色' type='1' name='段边框' value='ff0000' show='0' pos='1.00000,-10.80000'/>
+			<FIELD id='103' pt='5' extra='共阴,共阳' description='' type='1' name='结构' value='共阴' show='0' pos='1.00000,-8.40000'/>
+			<FIELD id='104' pt='5' extra='下小数点,中冒号,上小数点' description='' type='1' name='类型' value='下小数点' show='0' pos='1.00000,-6.00000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='255' info='全部显示数字8'/>
+			<PRODATA number='2' type='1' typeex='0' lldata='32767' info='最左侧显示数字8'/>
+			<PRODATA number='3' type='1' typeex='0' lldata='65279' info='最右侧显示数字8'/>
+			<PRODATA number='4' type='1' typeex='0' lldata='65031' info='最右侧显示数字7，不显示小数点'/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

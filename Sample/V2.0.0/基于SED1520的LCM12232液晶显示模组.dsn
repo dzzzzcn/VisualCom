@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 1.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>AAC8C8</COLOR>
+		</FILL>
+		<FILL id='6'>
+			<INDEX>0</INDEX>
+			<COLOR>004632</COLOR>
+		</FILL>
+		<FILL id='7'>
+			<INDEX>0</INDEX>
+			<COLOR>0000FF</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>AGM1232G</NAME>
+			<REF type='0'>LCD</REF>
+			<DESCRIPTION>122X32 Graphical LCD with SED1520 controllers</DESCRIPTION>
+			<PPP>3</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>AGM1232G</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>LCD</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>AGM1232G.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>像素</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>发光像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>像素边框</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>发光像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='73.87160,40.28785'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='18.27160,10.14181' b='73.87160,34.14181' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+					<PIN pos='27.19191,40.28785' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VSS</PIN>
+					<PIN pos='29.19191,40.28785' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VDD</PIN>
+					<PIN pos='31.19191,40.28785' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VEE</PIN>
+					<RECTANGLE a='19.66304,12.19277' b='72.26304,27.98432' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+					<PIN pos='33.19191,40.28785' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A0</PIN>
+					<PIN pos='35.19191,40.28785' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E1</PIN>
+					<PIN pos='37.19191,40.28785' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E2</PIN>
+					<PIN pos='43.19191,40.28785' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>R/W#</PIN>
+					<PIN pos='45.19191,40.28785' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D0</PIN>
+					<PIN pos='47.19191,40.28785' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D1</PIN>
+					<PIN pos='49.19191,40.28785' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D2</PIN>
+					<PIN pos='51.19191,40.28785' which='0' elec='0' direction='0' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D3</PIN>
+					<PIN pos='53.19191,40.28785' which='0' elec='0' direction='0' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D4</PIN>
+					<PIN pos='55.19191,40.28785' which='0' elec='0' direction='0' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D5</PIN>
+					<PIN pos='41.19191,40.28785' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>NC</PIN>
+					<PIN pos='39.19191,40.28785' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>NC</PIN>
+					<PIN pos='57.19191,40.28785' which='0' elec='0' direction='0' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D6</PIN>
+					<PIN pos='59.19191,40.28785' which='0' elec='0' direction='0' part='0' number='17' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D7</PIN>
+					<PIN pos='61.19191,40.28785' which='0' elec='0' direction='0' part='0' number='18' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>RES#</PIN>
+					<PIN pos='63.19191,40.28785' which='0' elec='0' direction='0' part='0' number='19' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>BL-</PIN>
+					<PIN pos='65.19191,40.28785' which='0' elec='0' direction='0' part='0' number='20' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>BL+</PIN>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='19.66304,12.19277' b='72.26304,27.98432' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='37.64533,47.96739' b='38.14056,48.45753' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>000000</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<RECTANGLE a='18.27160,10.14181' b='73.87160,34.14181' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+		<PIN pos='27.19191,40.28785' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VSS</PIN>
+		<PIN pos='29.19191,40.28785' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VDD</PIN>
+		<PIN pos='31.19191,40.28785' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>VEE</PIN>
+		<RECTANGLE a='19.66304,12.19277' b='72.26304,27.98432' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+		<PIN pos='33.19191,40.28785' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>A0</PIN>
+		<PIN pos='35.19191,40.28785' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E1</PIN>
+		<PIN pos='37.19191,40.28785' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>E2</PIN>
+		<PIN pos='43.19191,40.28785' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>R/W#</PIN>
+		<PIN pos='45.19191,40.28785' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D0</PIN>
+		<PIN pos='47.19191,40.28785' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D1</PIN>
+		<PIN pos='49.19191,40.28785' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D2</PIN>
+		<PIN pos='51.19191,40.28785' which='0' elec='0' direction='0' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D3</PIN>
+		<PIN pos='53.19191,40.28785' which='0' elec='0' direction='0' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D4</PIN>
+		<PIN pos='55.19191,40.28785' which='0' elec='0' direction='0' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D5</PIN>
+		<PIN pos='41.19191,40.28785' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>NC</PIN>
+		<PIN pos='39.19191,40.28785' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>NC</PIN>
+		<PIN pos='57.19191,40.28785' which='0' elec='0' direction='0' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D6</PIN>
+		<PIN pos='59.19191,40.28785' which='0' elec='0' direction='0' part='0' number='17' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>D7</PIN>
+		<PIN pos='61.19191,40.28785' which='0' elec='0' direction='0' part='0' number='18' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>RES#</PIN>
+		<PIN pos='63.19191,40.28785' which='0' elec='0' direction='0' part='0' number='19' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>BL-</PIN>
+		<PIN pos='65.19191,40.28785' which='0' elec='0' direction='0' part='0' number='20' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'>BL+</PIN>
+		<RECTANGLE a='33.60736,73.13888' b='33.99084,73.50204' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+		<RECTANGLE a='34.56841,73.17449' b='35.06364,73.66463' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+		<RECTANGLE a='18.52400,56.49645' b='71.12400,72.28800' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+		<SYMBOL id='1' pos='179.57491,40.62000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='AGM1232G' show='1' pos='-12.10878,-28.05501'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='LCD' show='1' pos='-20.75694,-28.02187'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-20.94604'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='AGM1232G.DLL' show='0' pos='1.00000,-18.54604'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-16.14604'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-23.34604'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='ffff00' show='0' pos='1.00000,-13.74604'/>
+			<FIELD id='101' pt='3' extra='' description='发光像素的填充颜色' type='1' name='像素' value='000000' show='0' pos='1.00000,-11.34604'/>
+			<FIELD id='102' pt='3' extra='' description='发光像素的边框颜色' type='1' name='像素边框' value='ffff00' show='0' pos='1.00000,-8.94604'/>
+			<PRODATA number='1' type='0' typeex='0' lldata='160' info='设置ADC：列地址与SEG驱动输出前向映射'/>
+			<PRODATA number='2' type='0' typeex='0' lldata='184' info='设置页地址为0'/>
+			<PRODATA number='3' type='0' typeex='0' lldata='0' info='设置列地址为0'/>
+			<PRODATA number='4' type='0' typeex='0' lldata='448' info='设置左半屏起始行地址为0'/>
+			<PRODATA number='5' type='0' typeex='0' lldata='712' info='设置右半屏起始地地址为8'/>
+			<PRODATA number='6' type='0' typeex='0' lldata='169' info='设置扫描占空比：1/32'/>
+			<PRODATA number='7' type='0' typeex='0' lldata='164' info='关闭静态驱动'/>
+			<PRODATA number='8' type='0' typeex='0' lldata='175' info='打开显示'/>
+			<PRODATA number='9' type='1' typeex='0' lldata='32' info='以下写入“join”字模'/>
+			<PRODATA number='10' type='1' typeex='0' lldata='64' info=''/>
+			<PRODATA number='11' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='12' type='1' typeex='0' lldata='61' info=''/>
+			<PRODATA number='13' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='14' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='15' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='16' type='1' typeex='0' lldata='56' info=''/>
+			<PRODATA number='17' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='18' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='19' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='20' type='1' typeex='0' lldata='56' info=''/>
+			<PRODATA number='21' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='22' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='23' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='24' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='25' type='1' typeex='0' lldata='125' info=''/>
+			<PRODATA number='26' type='1' typeex='0' lldata='64' info=''/>
+			<PRODATA number='27' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='28' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='29' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='30' type='1' typeex='0' lldata='124' info=''/>
+			<PRODATA number='31' type='1' typeex='0' lldata='8' info=''/>
+			<PRODATA number='32' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='33' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='34' type='1' typeex='0' lldata='120' info=''/>
+			<PRODATA number='35' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='36' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='37' type='0' typeex='0' lldata='185' info='#NAME?'/>
+			<PRODATA number='38' type='0' typeex='0' lldata='8' info='------------------------'/>
+			<PRODATA number='39' type='1' typeex='0' lldata='60' info=''/>
+			<PRODATA number='40' type='1' typeex='0' lldata='64' info=''/>
+			<PRODATA number='41' type='1' typeex='0' lldata='56' info=''/>
+			<PRODATA number='42' type='1' typeex='0' lldata='64' info=''/>
+			<PRODATA number='43' type='1' typeex='0' lldata='60' info=''/>
+			<PRODATA number='44' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='45' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='46' type='1' typeex='0' lldata='56' info=''/>
+			<PRODATA number='47' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='48' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='49' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='50' type='1' typeex='0' lldata='24' info=''/>
+			<PRODATA number='51' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='52' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='53' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='54' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='55' type='1' typeex='0' lldata='125' info=''/>
+			<PRODATA number='56' type='1' typeex='0' lldata='64' info=''/>
+			<PRODATA number='57' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='58' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='59' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='60' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='61' type='1' typeex='0' lldata='40' info=''/>
+			<PRODATA number='62' type='1' typeex='0' lldata='16' info=''/>
+			<PRODATA number='63' type='1' typeex='0' lldata='40' info=''/>
+			<PRODATA number='64' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='65' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='66' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='67' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='68' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='69' type='1' typeex='0' lldata='125' info=''/>
+			<PRODATA number='70' type='1' typeex='0' lldata='64' info=''/>
+			<PRODATA number='71' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='72' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='73' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='74' type='1' typeex='0' lldata='124' info=''/>
+			<PRODATA number='75' type='1' typeex='0' lldata='8' info=''/>
+			<PRODATA number='76' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='77' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='78' type='1' typeex='0' lldata='120' info=''/>
+			<PRODATA number='79' type='0' typeex='0' lldata='186' info='#NAME?'/>
+			<PRODATA number='80' type='0' typeex='0' lldata='31' info='---------------------'/>
+			<PRODATA number='81' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='82' type='1' typeex='0' lldata='124' info=''/>
+			<PRODATA number='83' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='84' type='1' typeex='0' lldata='24' info=''/>
+			<PRODATA number='85' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='86' type='1' typeex='0' lldata='120' info=''/>
+			<PRODATA number='87' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='88' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='89' type='1' typeex='0' lldata='124' info=''/>
+			<PRODATA number='90' type='1' typeex='0' lldata='20' info=''/>
+			<PRODATA number='91' type='1' typeex='0' lldata='20' info=''/>
+			<PRODATA number='92' type='1' typeex='0' lldata='20' info=''/>
+			<PRODATA number='93' type='1' typeex='0' lldata='8' info=''/>
+			<PRODATA number='94' type='0' typeex='0' lldata='187' info='-----------------------------'/>
+			<PRODATA number='95' type='0' typeex='0' lldata='13' info='------------------------------'/>
+			<PRODATA number='96' type='1' typeex='0' lldata='56' info=''/>
+			<PRODATA number='97' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='98' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='99' type='1' typeex='0' lldata='72' info=''/>
+			<PRODATA number='100' type='1' typeex='0' lldata='127' info=''/>
+			<PRODATA number='101' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='102' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='103' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='104' type='1' typeex='0' lldata='100' info=''/>
+			<PRODATA number='105' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='106' type='1' typeex='0' lldata='76' info=''/>
+			<PRODATA number='107' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='108' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='109' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='110' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='111' type='1' typeex='0' lldata='100' info=''/>
+			<PRODATA number='112' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='113' type='1' typeex='0' lldata='76' info=''/>
+			<PRODATA number='114' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='115' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='116' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='117' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='118' type='1' typeex='0' lldata='100' info=''/>
+			<PRODATA number='119' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='120' type='1' typeex='0' lldata='76' info=''/>
+			<PRODATA number='121' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='122' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='123' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='124' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='125' type='1' typeex='0' lldata='100' info=''/>
+			<PRODATA number='126' type='1' typeex='0' lldata='84' info=''/>
+			<PRODATA number='127' type='1' typeex='0' lldata='76' info=''/>
+			<PRODATA number='128' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='129' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='130' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='131' type='1' typeex='0' lldata='56' info=''/>
+			<PRODATA number='132' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='133' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='134' type='1' typeex='0' lldata='68' info=''/>
+			<PRODATA number='135' type='1' typeex='0' lldata='32' info=''/>
+			<PRODATA number='136' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='137' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='138' type='1' typeex='0' lldata='124' info=''/>
+			<PRODATA number='139' type='1' typeex='0' lldata='8' info=''/>
+			<PRODATA number='140' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='141' type='1' typeex='0' lldata='4' info=''/>
+			<PRODATA number='142' type='1' typeex='0' lldata='120' info=''/>
+			<PRODATA number='143' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='144' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='145' type='1' typeex='0' lldata='0' info=''/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.00.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='50.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='5'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<STYLE id='6'>
+			<STYLE>0</STYLE>
+			<COLOR>0000FF</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<STYLE id='7'>
+			<STYLE>0</STYLE>
+			<COLOR>FF0000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<STYLE id='8'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<STYLE id='9'>
+			<STYLE>0</STYLE>
+			<COLOR>0000FF</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<STYLE id='10'>
+			<STYLE>0</STYLE>
+			<COLOR>FF0000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<FILL id='6'>
+			<INDEX>0</INDEX>
+			<COLOR>008000</COLOR>
+		</FILL>
+		<FILL id='7'>
+			<INDEX>0</INDEX>
+			<COLOR>F0FBFF</COLOR>
+		</FILL>
+		<FILL id='8'>
+			<INDEX>0</INDEX>
+			<COLOR>0000FF</COLOR>
+		</FILL>
+		<FILL id='9'>
+			<INDEX>0</INDEX>
+			<COLOR>FF0000</COLOR>
+		</FILL>
+		<FILL id='10'>
+			<INDEX>0</INDEX>
+			<COLOR>008000</COLOR>
+		</FILL>
+		<FILL id='11'>
+			<INDEX>0</INDEX>
+			<COLOR>F0FBFF</COLOR>
+		</FILL>
+		<FILL id='12'>
+			<INDEX>0</INDEX>
+			<COLOR>0000FF</COLOR>
+		</FILL>
+		<FILL id='13'>
+			<INDEX>0</INDEX>
+			<COLOR>FF0000</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>MOTOR02DC01B</NAME>
+			<REF type='0'>M</REF>
+			<DESCRIPTION>Simple DC Motor</DESCRIPTION>
+			<PPP>4</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>MOTOR02DC01B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>M</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>MOTOR02DC01B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>00ff00</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>标记1</NAME>
+				<DEFAULT>0000ff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>标记2</NAME>
+				<DEFAULT>ff0000</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>方向</NAME>
+				<DEFAULT>顺时针</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>顺时针,逆时针</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>角度增量</NAME>
+				<DEFAULT>1</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>1,10</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='80.00000,88.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<PIN pos='73.00000,62.00000' which='0' elec='0' direction='1' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'></PIN>
+					<PIN pos='73.00000,88.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'></PIN>
+					<ELLIPSE a='80.00000,82.00000' b='66.00000,68.00000' style='8' fill='10' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='008000'/>
+					<ELLIPSE a='74.00000,76.00000' b='72.00000,74.00000' style='8' fill='11' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+					<ELLIPSE a='77.24000,74.50000' b='78.24000,75.50000' style='9' fill='12' lstyle='0' lthickness='2' lcolor='0000FF' fstyle='0' fcolor='0000FF'/>
+					<ELLIPSE a='67.90000,74.50000' b='68.90000,75.50000' style='10' fill='13' lstyle='0' lthickness='2' lcolor='FF0000' fstyle='0' fcolor='FF0000'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='80.00000,82.00000' b='66.00000,68.00000' style='8' fill='10' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='008000'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='76.00000,106.00000' b='74.00000,104.00000' style='8' fill='11' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='77.24000,74.50000' b='78.24000,75.50000' style='9' fill='12' lstyle='0' lthickness='2' lcolor='0000FF' fstyle='0' fcolor='0000FF'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='2'>
+			<NAME type='0'>MOTOR02DC01B</NAME>
+			<REF type='0'>M</REF>
+			<DESCRIPTION>Simple DC Motor</DESCRIPTION>
+			<PPP>4</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>MOTOR02DC01B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>M</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>动态链接库</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>MOTOR02DC01B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>00ff00</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>标记1</NAME>
+				<DEFAULT>0000ff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>标记2</NAME>
+				<DEFAULT>ff0000</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>方向</NAME>
+				<DEFAULT>顺时针</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>顺时针,逆时针</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>角度增量</NAME>
+				<DEFAULT>1</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA>1,10</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='80.00000,88.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<PIN pos='73.00000,62.00000' which='0' elec='0' direction='1' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'></PIN>
+					<PIN pos='73.00000,88.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'></PIN>
+					<ELLIPSE a='80.00000,82.00000' b='66.00000,68.00000' style='5' fill='6' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='008000'/>
+					<ELLIPSE a='74.00000,76.00000' b='72.00000,74.00000' style='5' fill='7' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+					<ELLIPSE a='77.24000,74.50000' b='78.24000,75.50000' style='6' fill='8' lstyle='0' lthickness='2' lcolor='0000FF' fstyle='0' fcolor='0000FF'/>
+					<ELLIPSE a='67.90000,74.50000' b='68.90000,75.50000' style='7' fill='9' lstyle='0' lthickness='2' lcolor='FF0000' fstyle='0' fcolor='FF0000'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='80.00000,82.00000' b='66.00000,68.00000' style='5' fill='6' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='008000'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='76.00000,106.00000' b='74.00000,104.00000' style='5' fill='7' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='77.24000,74.50000' b='78.24000,75.50000' style='6' fill='8' lstyle='0' lthickness='2' lcolor='0000FF' fstyle='0' fcolor='0000FF'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+		</OPTIONS>
+		<PIN pos='73.00000,62.00000' which='0' elec='0' direction='1' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'></PIN>
+		<PIN pos='73.00000,88.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2'></PIN>
+		<ELLIPSE a='80.00000,82.00000' b='66.00000,68.00000' style='8' fill='10' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='008000'/>
+		<ELLIPSE a='74.00000,76.00000' b='72.00000,74.00000' style='8' fill='11' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+		<ELLIPSE a='77.24000,74.50000' b='78.24000,75.50000' style='9' fill='12' lstyle='0' lthickness='2' lcolor='0000FF' fstyle='0' fcolor='0000FF'/>
+		<ELLIPSE a='67.90000,74.50000' b='68.90000,75.50000' style='10' fill='13' lstyle='0' lthickness='2' lcolor='FF0000' fstyle='0' fcolor='FF0000'/>
+		<ELLIPSE a='82.00000,112.00000' b='68.00000,98.00000' style='8' fill='10' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='008000'/>
+		<ELLIPSE a='76.00000,106.00000' b='74.00000,104.00000' style='8' fill='11' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+		<SYMBOL id='1' pos='114.70214,87.36550' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='MOTOR02DC01B' show='-1' pos='1.00000,-24.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='M' show='-1' pos='1.00000,-21.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-16.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='MOTOR02DC01B.DLL' show='0' pos='1.00000,-14.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-12.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='-1' pos='1.00000,-19.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='808000' show='0' pos='1.00000,-9.60000'/>
+			<FIELD id='101' pt='3' extra='' description='' type='1' name='标记1' value='ffff00' show='0' pos='1.00000,-7.20000'/>
+			<FIELD id='102' pt='3' extra='' description='' type='1' name='标记2' value='ff00ff' show='0' pos='1.00000,-4.80000'/>
+			<FIELD id='103' pt='5' extra='顺时针,逆时针' description='' type='1' name='方向' value='顺时针' show='0' pos='1.00000,-2.40000'/>
+			<FIELD id='104' pt='1' extra='1,10' description='' type='1' name='角度增量' value='1l' show='0' pos='1.00000,0.00000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='4' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='5' type='1' typeex='0' lldata='1' info=''/>
+		</SYMBOL>
+		<ELLIPSE a='69.90000,92.30000' b='70.90000,93.30000' style='10' fill='13' lstyle='0' lthickness='2' lcolor='FF0000' fstyle='0' fcolor='FF0000'/>
+		<SYMBOL id='2' pos='153.00000,87.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='MOTOR02DC01B' show='1' pos='1.00000,-24.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='M' show='1' pos='1.00000,-21.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='动态链接库' show='0' pos='1.00000,-16.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='MOTOR02DC01B.DLL' show='0' pos='1.00000,-14.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-12.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-19.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='808000' show='0' pos='1.00000,-9.60000'/>
+			<FIELD id='101' pt='3' extra='' description='' type='1' name='标记1' value='ffff00' show='0' pos='1.00000,-7.20000'/>
+			<FIELD id='102' pt='3' extra='' description='' type='1' name='标记2' value='ff00ff' show='0' pos='1.00000,-4.80000'/>
+			<FIELD id='103' pt='5' extra='顺时针,逆时针' description='' type='1' name='方向' value='顺时针' show='0' pos='1.00000,-2.40000'/>
+			<FIELD id='104' pt='1' extra='1,10' description='' type='1' name='角度增量' value='1l' show='0' pos='1.00000,0.00000'/>
+			<PRODATA number='1' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='2' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='3' type='1' typeex='0' lldata='1' info=''/>
+			<PRODATA number='4' type='1' typeex='0' lldata='0' info=''/>
+			<PRODATA number='5' type='1' typeex='0' lldata='1' info=''/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>
