@@ -37,7 +37,7 @@ LONG CLamp::GetTimeInterval(INT dat)
 
 BOOL CLamp::IntervalProcess(RUNMODES mode)
 {
-	return TRUE;
+	return FALSE;
 }
 
 VOID CLamp::Initialize(ICOMPONENT* cpt, DSIMMODES smode)

@@ -64,7 +64,7 @@ BOOL CLamp::IntervalProcess(RUNMODES mode)
 		m_LampStatus = FALSE;
 	}
 	
-	return TRUE;
+	return FALSE;
 }
 
 VOID CLamp::Initialize(ICOMPONENT* cpt, DSIMMODES smode)
