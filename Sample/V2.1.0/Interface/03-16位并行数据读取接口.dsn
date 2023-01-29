@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.01.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='1'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-9</HEIGHT>
+			<WIDTH>4</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='3'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>2</THICKNESS>
+		</STYLE>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>AAC8C8</COLOR>
+		</FILL>
+		<FILL id='6'>
+			<INDEX>0</INDEX>
+			<COLOR>004632</COLOR>
+		</FILL>
+		<FILL id='7'>
+			<INDEX>0</INDEX>
+			<COLOR>F0FBFF</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>PRF16C01</NAME>
+			<REF type='0'>U</REF>
+			<DESCRIPTION>Parallel Read Interface, 16bit, HEX and Binary Display Format Changable</DESCRIPTION>
+			<PPP>3</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>PRF16C01</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>U</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>0</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>PRF16C01.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>信息行</NAME>
+				<DEFAULT>0000ff</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>显示进制</NAME>
+				<DEFAULT>二</DEFAULT>
+				<DESCRIPTION>“B”代表二进制，“H”代表十六进制</DESCRIPTION>
+				<EXTRA>二,十六</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>显示所有</NAME>
+				<DEFAULT>1</DEFAULT>
+				<DESCRIPTION>True表示显示所有数据，False仅显示变化的数据</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000002</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='166.00000,82.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='128.00000,76.00000' b='166.00000,26.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+					<PIN pos='162.00000,82.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D0</PIN>
+					<PIN pos='160.00000,82.00000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D1</PIN>
+					<PIN pos='158.00000,82.00000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D2</PIN>
+					<PIN pos='156.00000,82.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D3</PIN>
+					<PIN pos='154.00000,82.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D4</PIN>
+					<PIN pos='152.00000,82.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D5</PIN>
+					<PIN pos='150.00000,82.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D6</PIN>
+					<PIN pos='148.00000,82.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D7</PIN>
+					<RECTANGLE a='130.00000,28.00000' b='164.00000,70.00000' style='3' fill='6' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='004632'/>
+					<TEXT pos='132.00000,63.00000' direction='3' font='3' color='C0DCC0'>[B0000000029] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,65.00000' direction='3' font='3' color='C0DCC0'>[B0000000030] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,67.00000' direction='3' font='3' color='C0DCC0'>[B0000000031] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,69.00000' direction='3' font='3' color='C0DCC0'>[B0000000032] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,61.00000' direction='3' font='3' color='C0DCC0'>[B0000000028] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,53.00000' direction='3' font='3' color='C0DCC0'>[B0000000024] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,55.00000' direction='3' font='3' color='C0DCC0'>[B0000000025] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,57.00000' direction='3' font='3' color='C0DCC0'>[B0000000026] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,59.00000' direction='3' font='3' color='C0DCC0'>[B0000000027] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,45.00000' direction='3' font='3' color='C0DCC0'>[B0000000020] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,47.00000' direction='3' font='3' color='C0DCC0'>[B0000000021] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,49.00000' direction='3' font='3' color='C0DCC0'>[B0000000022] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,51.00000' direction='3' font='3' color='C0DCC0'>[B0000000023] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,37.00000' direction='3' font='3' color='C0DCC0'>[B0000000016] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,39.00000' direction='3' font='3' color='C0DCC0'>[B0000000017] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,41.00000' direction='3' font='3' color='C0DCC0'>[B0000000018] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,43.00000' direction='3' font='3' color='C0DCC0'>[B0000000019] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,31.00000' direction='3' font='3' color='C0DCC0'>[B0000000013] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,33.00000' direction='3' font='3' color='C0DCC0'>[B0000000014] 0000 0000 0000 0000</TEXT>
+					<TEXT pos='132.00000,35.00000' direction='3' font='3' color='C0DCC0'>[B0000000015] 0000 0000 0000 0000</TEXT>
+					<PIN pos='146.00000,82.00000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D8</PIN>
+					<PIN pos='144.00000,82.00000' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D9</PIN>
+					<PIN pos='142.00000,82.00000' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D10</PIN>
+					<PIN pos='140.00000,82.00000' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D11</PIN>
+					<PIN pos='138.00000,82.00000' which='0' elec='0' direction='0' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D12</PIN>
+					<PIN pos='136.00000,82.00000' which='0' elec='0' direction='0' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D13</PIN>
+					<PIN pos='134.00000,82.00000' which='0' elec='0' direction='0' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D14</PIN>
+					<PIN pos='132.00000,82.00000' which='0' elec='0' direction='0' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D15</PIN>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='130.00000,92.00000' b='164.00000,134.00000' style='3' fill='7' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+				</VisualCom>
+				<VisualCom>
+					<TEXT pos='138.00000,149.00000' direction='3' font='3' color='0000FF'>B 0000 1111 0000 0000</TEXT>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>1</GRID>
+			<UNITS>0</UNITS>
+			<TARGET>1</TARGET>
+			<VTIME>100</VTIME>
+			<UTIME>1</UTIME>
+			<SIMTYPE>0</SIMTYPE>
+			<SIMECOUNT>10</SIMECOUNT>
+			<SIMREFRESH>100</SIMREFRESH>
+			<SIMPEROID>1000</SIMPEROID>
+			<SIMAFTER>10</SIMAFTER>
+			<WRREMOTE>1</WRREMOTE>
+			<RDREMOTE>1</RDREMOTE>
+			<DEREMOTE>1</DEREMOTE>
+			<ENREMOTE>1</ENREMOTE>
+			<ENRUNINFO>0</ENRUNINFO>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+			<PINASSIGN_OFFBK>C0C0C0</PINASSIGN_OFFBK>
+			<PINASSIGN_FIXCELL_BKCLR>E0FFFF</PINASSIGN_FIXCELL_BKCLR>
+			<PINASSIGNFIXCELL_TXTCLR>000000</PINASSIGNFIXCELL_TXTCLR>
+			<PINASSIGN_UNFIXODD_BKCLR>A6CAF0</PINASSIGN_UNFIXODD_BKCLR>
+			<PINASSIGN_UNFIXEVEN_BKCLR>E0FFFF</PINASSIGN_UNFIXEVEN_BKCLR>
+			<PINASSIGN_UNFIXODD_TXTCLR>000000</PINASSIGN_UNFIXODD_TXTCLR>
+			<PINASSIGN_UNFIXEVEN_TXTCLR>000000</PINASSIGN_UNFIXEVEN_TXTCLR>
+			<PINASSIGN_GLINE_CLR>A0A0A0</PINASSIGN_GLINE_CLR>
+			<PINASSIGN_UNASSIGNED_BKCLR>0000FF</PINASSIGN_UNASSIGNED_BKCLR>
+			<PINASSIGN_ASSIGNED_BKCLR>00FF00</PINASSIGN_ASSIGNED_BKCLR>
+			<PINASSIGN_EXCEED_BKCLR>00FFFF</PINASSIGN_EXCEED_BKCLR>
+			<PINASSIGN_TRIGGER_BKCLR>FFFF00</PINASSIGN_TRIGGER_BKCLR>
+			<PINASSIGN_CNTLR_BKCLR>FF39FF</PINASSIGN_CNTLR_BKCLR>
+			<PINASSIGN_PWRGND_BKCLR>0014D7</PINASSIGN_PWRGND_BKCLR>
+			<PINASSIGN_NOELEC_BKCLR>C0C0C0</PINASSIGN_NOELEC_BKCLR>
+		</OPTIONS>
+		<RECTANGLE a='128.00000,76.00000' b='166.00000,26.00000' style='3' fill='5' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+		<PIN pos='162.00000,82.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D0</PIN>
+		<PIN pos='160.00000,82.00000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D1</PIN>
+		<PIN pos='158.00000,82.00000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D2</PIN>
+		<PIN pos='156.00000,82.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D3</PIN>
+		<PIN pos='154.00000,82.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D4</PIN>
+		<PIN pos='152.00000,82.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D5</PIN>
+		<PIN pos='150.00000,82.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D6</PIN>
+		<PIN pos='148.00000,82.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D7</PIN>
+		<RECTANGLE a='130.00000,28.00000' b='164.00000,70.00000' style='3' fill='6' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='004632'/>
+		<TEXT pos='132.00000,63.00000' direction='3' font='3' color='C0DCC0'>[B0000000029] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,65.00000' direction='3' font='3' color='C0DCC0'>[B0000000030] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,67.00000' direction='3' font='3' color='C0DCC0'>[B0000000031] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,69.00000' direction='3' font='3' color='C0DCC0'>[B0000000032] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,61.00000' direction='3' font='3' color='C0DCC0'>[B0000000028] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,53.00000' direction='3' font='3' color='C0DCC0'>[B0000000024] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,55.00000' direction='3' font='3' color='C0DCC0'>[B0000000025] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,57.00000' direction='3' font='3' color='C0DCC0'>[B0000000026] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,59.00000' direction='3' font='3' color='C0DCC0'>[B0000000027] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,45.00000' direction='3' font='3' color='C0DCC0'>[B0000000020] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,47.00000' direction='3' font='3' color='C0DCC0'>[B0000000021] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,49.00000' direction='3' font='3' color='C0DCC0'>[B0000000022] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,51.00000' direction='3' font='3' color='C0DCC0'>[B0000000023] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,37.00000' direction='3' font='3' color='C0DCC0'>[B0000000016] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,39.00000' direction='3' font='3' color='C0DCC0'>[B0000000017] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,41.00000' direction='3' font='3' color='C0DCC0'>[B0000000018] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,43.00000' direction='3' font='3' color='C0DCC0'>[B0000000019] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,31.00000' direction='3' font='3' color='C0DCC0'>[B0000000013] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,33.00000' direction='3' font='3' color='C0DCC0'>[B0000000014] 0000 0000 0000 0000</TEXT>
+		<TEXT pos='132.00000,35.00000' direction='3' font='3' color='C0DCC0'>[B0000000015] 0000 0000 0000 0000</TEXT>
+		<PIN pos='146.00000,82.00000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D8</PIN>
+		<PIN pos='144.00000,82.00000' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D9</PIN>
+		<PIN pos='142.00000,82.00000' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D10</PIN>
+		<PIN pos='140.00000,82.00000' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D11</PIN>
+		<PIN pos='138.00000,82.00000' which='0' elec='0' direction='0' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D12</PIN>
+		<PIN pos='136.00000,82.00000' which='0' elec='0' direction='0' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D13</PIN>
+		<PIN pos='134.00000,82.00000' which='0' elec='0' direction='0' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D14</PIN>
+		<PIN pos='132.00000,82.00000' which='0' elec='0' direction='0' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D15</PIN>
+		<RECTANGLE a='130.00000,92.00000' b='164.00000,134.00000' style='3' fill='7' lstyle='0' lthickness='2' lcolor='000000' fstyle='0' fcolor='F0FBFF'/>
+		<TEXT pos='138.00000,149.00000' direction='3' font='3' color='0000FF'>B 0000 1111 0000 0000</TEXT>
+		<SYMBOL id='1' pos='220.00000,82.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' run_info='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='PRF16C01' show='1' pos='1.00000,-54.00000'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='U' show='1' pos='1.00000,-51.60000'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='0' show='0' pos='1.00000,-46.80000'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='PRF16C01.DLL' show='0' pos='1.00000,-44.40000'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-42.00000'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='1' pos='1.00000,-49.20000'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='ffffff' show='0' pos='1.00000,-39.60000'/>
+			<FIELD id='101' pt='3' extra='' description='' type='1' name='信息行' value='ff0000' show='0' pos='1.00000,-37.20000'/>
+			<FIELD id='102' pt='5' extra='二,十六' description='“B”代表二进制，“H”代表十六进制' type='1' name='显示进制' value='十六' show='0' pos='1.00000,-34.80000'/>
+			<FIELD id='103' pt='2' extra='' description='True表示显示所有数据，False仅显示变化的数据' type='1' name='显示所有' value='0' show='0' pos='1.00000,-32.40000'/>
+			<PINDATA id='1' name='D0' number='1' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='1'/>
+			<PINDATA id='2' name='D1' number='2' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='2'/>
+			<PINDATA id='3' name='D2' number='3' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='3'/>
+			<PINDATA id='4' name='D3' number='4' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='4'/>
+			<PINDATA id='5' name='D4' number='5' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='5'/>
+			<PINDATA id='6' name='D5' number='6' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='6'/>
+			<PINDATA id='7' name='D6' number='7' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='7'/>
+			<PINDATA id='8' name='D7' number='8' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='8'/>
+			<PINDATA id='9' name='D8' number='9' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='9'/>
+			<PINDATA id='10' name='D9' number='10' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='10'/>
+			<PINDATA id='11' name='D10' number='11' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='11'/>
+			<PINDATA id='12' name='D11' number='12' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='12'/>
+			<PINDATA id='13' name='D12' number='13' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='13'/>
+			<PINDATA id='14' name='D13' number='14' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='14'/>
+			<PINDATA id='15' name='D14' number='15' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='15'/>
+			<PINDATA id='16' name='D15' number='16' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='16'/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

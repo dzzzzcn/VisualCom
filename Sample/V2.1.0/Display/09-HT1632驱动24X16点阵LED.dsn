@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.01.00 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='0'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-20</HEIGHT>
+			<WIDTH>9</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='3'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<STYLE id='4'>
+			<STYLE>0</STYLE>
+			<COLOR>0000FF</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>3B3B3B</COLOR>
+		</FILL>
+		<FILL id='6'>
+			<INDEX>0</INDEX>
+			<COLOR>A4A0A0</COLOR>
+		</FILL>
+		<FILL id='7'>
+			<INDEX>0</INDEX>
+			<COLOR>AFFFFF</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>MLED24X16M01S02B</NAME>
+			<REF type='0'>M</REF>
+			<DESCRIPTION>24x16 Matrix LED Display Module with HT1632</DESCRIPTION>
+			<PPP>4</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>MLED24X16M01S02B</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>M</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>0</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>MLED24X16M01S02B.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>3b3b3b</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>点亮</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION>发光像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>点亮边框</NAME>
+				<DEFAULT>ffffff</DEFAULT>
+				<DESCRIPTION>发光像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>熄灭</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>熄灭像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>熄灭边框</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>熄灭像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>105</ID>
+				<NAME>形状</NAME>
+				<DEFAULT>圆形</DEFAULT>
+				<DESCRIPTION>像素的形状</DESCRIPTION>
+				<EXTRA>圆形,方形</EXTRA>
+				<FT>000001</FT>
+				<PT>000005</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>106</ID>
+				<NAME>数据位反序</NAME>
+				<DEFAULT>1</DEFAULT>
+				<DESCRIPTION>是否将写入的4位DRAM数据反序</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000002</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='109.38710,171.43540'/>
+			<VisualComSheets>
+				<VisualCom>
+					<PIN pos='19.59742,171.43540' which='0' elec='0' direction='0' part='0' number='1' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>CS_N</PIN>
+					<PIN pos='22.82323,171.43540' which='0' elec='0' direction='0' part='0' number='2' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>WR_N</PIN>
+					<PIN pos='26.04903,171.43540' which='0' elec='0' direction='0' part='0' number='3' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>RD_N</PIN>
+					<PIN pos='29.27484,171.43540' which='0' elec='0' direction='0' part='0' number='4' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>DATA</PIN>
+					<RECTANGLE a='13.90323,161.84323' b='109.38710,97.81714' style='3' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+					<ELLIPSE a='18.74194,160.23453' b='15.51613,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,156.37366' b='15.51613,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,152.51279' b='15.51613,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,148.65192' b='15.51613,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,144.79105' b='15.51613,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,140.93018' b='15.51613,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,137.06931' b='15.51613,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,133.20844' b='15.51613,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,129.34757' b='15.51613,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,125.48670' b='15.51613,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,121.62583' b='15.51613,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,117.76497' b='15.51613,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,113.90410' b='15.51613,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,110.04323' b='15.51613,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,106.18236' b='15.51613,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='18.74194,102.32149' b='15.51613,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,102.32149' b='22.61290,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,102.32149' b='26.48387,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,102.32149' b='30.35484,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,102.32149' b='34.22581,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,102.32149' b='38.09677,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,102.32149' b='41.96774,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,102.32149' b='45.83871,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,102.32149' b='49.70968,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,102.32149' b='53.58065,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,102.32149' b='57.45161,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,102.32149' b='61.32258,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,102.32149' b='65.19355,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,102.32149' b='69.06452,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,102.32149' b='72.93548,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,102.32149' b='76.80645,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,102.32149' b='80.67742,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,102.32149' b='84.54839,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,102.32149' b='88.41935,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,102.32149' b='92.29032,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,102.32149' b='96.16129,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,102.32149' b='100.03226,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,102.32149' b='103.90323,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,102.32149' b='107.77419,99.10410' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,106.18236' b='22.61290,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,106.18236' b='26.48387,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,106.18236' b='30.35484,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,106.18236' b='34.22581,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,106.18236' b='38.09677,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,106.18236' b='41.96774,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,106.18236' b='45.83871,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,106.18236' b='49.70968,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,106.18236' b='53.58065,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,106.18236' b='57.45161,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,106.18236' b='61.32258,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,106.18236' b='65.19355,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,106.18236' b='69.06452,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,106.18236' b='72.93548,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,106.18236' b='76.80645,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,106.18236' b='80.67742,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,106.18236' b='84.54839,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,106.18236' b='88.41935,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,106.18236' b='92.29032,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,106.18236' b='96.16129,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,106.18236' b='100.03226,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,106.18236' b='103.90323,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,106.18236' b='107.77419,102.96497' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,110.04323' b='22.61290,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,110.04323' b='26.48387,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,110.04323' b='30.35484,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,110.04323' b='34.22581,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,110.04323' b='38.09677,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,110.04323' b='41.96774,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,110.04323' b='45.83871,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,110.04323' b='49.70968,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,110.04323' b='53.58065,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,110.04323' b='57.45161,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,110.04323' b='61.32258,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,110.04323' b='65.19355,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,110.04323' b='69.06452,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,110.04323' b='72.93548,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,110.04323' b='76.80645,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,110.04323' b='80.67742,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,110.04323' b='84.54839,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,110.04323' b='88.41935,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,110.04323' b='92.29032,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,110.04323' b='96.16129,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,110.04323' b='100.03226,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,110.04323' b='103.90323,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,110.04323' b='107.77419,106.82583' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,113.90410' b='22.61290,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,113.90410' b='26.48387,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,113.90410' b='30.35484,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,113.90410' b='34.22581,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,113.90410' b='38.09677,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,113.90410' b='41.96774,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,113.90410' b='45.83871,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,113.90410' b='49.70968,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,113.90410' b='53.58065,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,113.90410' b='57.45161,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,113.90410' b='61.32258,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,113.90410' b='65.19355,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,113.90410' b='69.06452,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,113.90410' b='72.93548,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,113.90410' b='76.80645,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,113.90410' b='80.67742,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,113.90410' b='84.54839,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,113.90410' b='88.41935,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,113.90410' b='92.29032,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,113.90410' b='96.16129,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,113.90410' b='100.03226,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,113.90410' b='103.90323,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,113.90410' b='107.77419,110.68670' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,117.76497' b='22.61290,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,117.76497' b='26.48387,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,117.76497' b='30.35484,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,117.76497' b='34.22581,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,117.76497' b='38.09677,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,117.76497' b='41.96774,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,117.76497' b='45.83871,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,117.76497' b='49.70968,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,117.76497' b='53.58065,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,117.76497' b='57.45161,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,117.76497' b='61.32258,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,117.76497' b='65.19355,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,117.76497' b='69.06452,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,117.76497' b='72.93548,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,117.76497' b='76.80645,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,117.76497' b='80.67742,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,117.76497' b='84.54839,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,117.76497' b='88.41935,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,117.76497' b='92.29032,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,117.76497' b='96.16129,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,117.76497' b='100.03226,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,117.76497' b='103.90323,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,117.76497' b='107.77419,114.54757' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,121.62583' b='22.61290,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,121.62583' b='26.48387,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,121.62583' b='30.35484,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,121.62583' b='34.22581,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,121.62583' b='38.09677,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,121.62583' b='41.96774,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,121.62583' b='45.83871,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,121.62583' b='49.70968,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,121.62583' b='53.58065,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,121.62583' b='57.45161,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,121.62583' b='61.32258,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,121.62583' b='65.19355,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,121.62583' b='69.06452,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,121.62583' b='72.93548,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,121.62583' b='76.80645,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,121.62583' b='80.67742,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,121.62583' b='84.54839,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,121.62583' b='88.41935,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,121.62583' b='92.29032,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,121.62583' b='96.16129,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,121.62583' b='100.03226,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,121.62583' b='103.90323,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,121.62583' b='107.77419,118.40844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,125.48670' b='22.61290,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,125.48670' b='26.48387,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,125.48670' b='30.35484,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,125.48670' b='34.22581,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,125.48670' b='38.09677,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,125.48670' b='41.96774,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,125.48670' b='45.83871,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,125.48670' b='49.70968,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,125.48670' b='53.58065,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,125.48670' b='57.45161,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,125.48670' b='61.32258,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,125.48670' b='65.19355,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,125.48670' b='69.06452,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,125.48670' b='72.93548,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,125.48670' b='76.80645,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,125.48670' b='80.67742,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,125.48670' b='84.54839,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,125.48670' b='88.41935,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,125.48670' b='92.29032,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,125.48670' b='96.16129,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,125.48670' b='100.03226,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,125.48670' b='103.90323,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,125.48670' b='107.77419,122.26931' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,129.34757' b='22.61290,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,129.34757' b='26.48387,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,129.34757' b='30.35484,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,129.34757' b='34.22581,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,129.34757' b='38.09677,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,129.34757' b='41.96774,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,129.34757' b='45.83871,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,129.34757' b='49.70968,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,129.34757' b='53.58065,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,129.34757' b='57.45161,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,129.34757' b='61.32258,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,129.34757' b='65.19355,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,129.34757' b='69.06452,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,129.34757' b='72.93548,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,129.34757' b='76.80645,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,129.34757' b='80.67742,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,129.34757' b='84.54839,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,129.34757' b='88.41935,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,129.34757' b='92.29032,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,129.34757' b='96.16129,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,129.34757' b='100.03226,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,129.34757' b='103.90323,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,129.34757' b='107.77419,126.13018' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,133.20844' b='22.61290,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,133.20844' b='26.48387,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,133.20844' b='30.35484,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,133.20844' b='34.22581,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,133.20844' b='38.09677,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,133.20844' b='41.96774,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,133.20844' b='45.83871,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,133.20844' b='49.70968,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,133.20844' b='53.58065,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,133.20844' b='57.45161,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,133.20844' b='61.32258,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,133.20844' b='65.19355,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,133.20844' b='69.06452,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,133.20844' b='72.93548,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,133.20844' b='76.80645,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,133.20844' b='80.67742,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,133.20844' b='84.54839,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,133.20844' b='88.41935,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,133.20844' b='92.29032,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,133.20844' b='96.16129,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,133.20844' b='100.03226,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,133.20844' b='103.90323,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,133.20844' b='107.77419,129.99105' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,137.06931' b='22.61290,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,137.06931' b='26.48387,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,137.06931' b='30.35484,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,137.06931' b='34.22581,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,137.06931' b='38.09677,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,137.06931' b='41.96774,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,137.06931' b='45.83871,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,137.06931' b='49.70968,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,137.06931' b='53.58065,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,137.06931' b='57.45161,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,137.06931' b='61.32258,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,137.06931' b='65.19355,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,137.06931' b='69.06452,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,137.06931' b='72.93548,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,137.06931' b='76.80645,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,137.06931' b='80.67742,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,137.06931' b='84.54839,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,137.06931' b='88.41935,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,137.06931' b='92.29032,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,137.06931' b='96.16129,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,137.06931' b='100.03226,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,137.06931' b='103.90323,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,137.06931' b='107.77419,133.85192' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,140.93018' b='22.61290,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,140.93018' b='26.48387,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,140.93018' b='30.35484,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,140.93018' b='34.22581,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,140.93018' b='38.09677,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,140.93018' b='41.96774,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,140.93018' b='45.83871,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,140.93018' b='49.70968,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,140.93018' b='53.58065,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,140.93018' b='57.45161,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,140.93018' b='61.32258,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,140.93018' b='65.19355,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,140.93018' b='69.06452,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,140.93018' b='72.93548,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,140.93018' b='76.80645,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,140.93018' b='80.67742,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,140.93018' b='84.54839,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,140.93018' b='88.41935,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,140.93018' b='92.29032,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,140.93018' b='96.16129,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,140.93018' b='100.03226,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,140.93018' b='103.90323,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,140.93018' b='107.77419,137.71279' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,144.79105' b='22.61290,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,144.79105' b='26.48387,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,144.79105' b='30.35484,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,144.79105' b='34.22581,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,144.79105' b='38.09677,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,144.79105' b='41.96774,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,144.79105' b='45.83871,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,144.79105' b='49.70968,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,144.79105' b='53.58065,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,144.79105' b='57.45161,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,144.79105' b='61.32258,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,144.79105' b='65.19355,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,144.79105' b='69.06452,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,144.79105' b='72.93548,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,144.79105' b='76.80645,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,144.79105' b='80.67742,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,144.79105' b='84.54839,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,144.79105' b='88.41935,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,144.79105' b='92.29032,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,144.79105' b='96.16129,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,144.79105' b='100.03226,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,144.79105' b='103.90323,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,144.79105' b='107.77419,141.57366' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,148.65192' b='22.61290,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,148.65192' b='26.48387,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,148.65192' b='30.35484,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,148.65192' b='34.22581,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,148.65192' b='38.09677,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,148.65192' b='41.96774,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,148.65192' b='45.83871,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,148.65192' b='49.70968,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,148.65192' b='53.58065,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,148.65192' b='57.45161,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,148.65192' b='61.32258,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,148.65192' b='65.19355,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,148.65192' b='69.06452,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,148.65192' b='72.93548,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,148.65192' b='76.80645,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,148.65192' b='80.67742,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,148.65192' b='84.54839,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,148.65192' b='88.41935,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,148.65192' b='92.29032,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,148.65192' b='96.16129,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,148.65192' b='100.03226,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,148.65192' b='103.90323,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,148.65192' b='107.77419,145.43453' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,152.51279' b='22.61290,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,152.51279' b='26.48387,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,152.51279' b='30.35484,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,152.51279' b='34.22581,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,152.51279' b='38.09677,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,152.51279' b='41.96774,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,152.51279' b='45.83871,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,152.51279' b='49.70968,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,152.51279' b='53.58065,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,152.51279' b='57.45161,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,152.51279' b='61.32258,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,152.51279' b='65.19355,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,152.51279' b='69.06452,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,152.51279' b='72.93548,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,152.51279' b='76.80645,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,152.51279' b='80.67742,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,152.51279' b='84.54839,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,152.51279' b='88.41935,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,152.51279' b='92.29032,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,152.51279' b='96.16129,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,152.51279' b='100.03226,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,152.51279' b='103.90323,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,152.51279' b='107.77419,149.29540' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,156.37366' b='22.61290,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,156.37366' b='26.48387,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,156.37366' b='30.35484,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,156.37366' b='34.22581,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,156.37366' b='38.09677,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,156.37366' b='41.96774,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,156.37366' b='45.83871,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,156.37366' b='49.70968,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,156.37366' b='53.58065,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,156.37366' b='57.45161,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,156.37366' b='61.32258,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,156.37366' b='65.19355,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,156.37366' b='69.06452,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,156.37366' b='72.93548,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,156.37366' b='76.80645,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,156.37366' b='80.67742,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,156.37366' b='84.54839,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,156.37366' b='88.41935,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,156.37366' b='92.29032,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,156.37366' b='96.16129,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,156.37366' b='100.03226,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,156.37366' b='103.90323,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,156.37366' b='107.77419,153.15627' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='19.38710,160.23453' b='22.61290,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='23.25806,160.23453' b='26.48387,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='27.12903,160.23453' b='30.35484,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='31.00000,160.23453' b='34.22581,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='34.87097,160.23453' b='38.09677,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='38.74194,160.23453' b='41.96774,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='42.61290,160.23453' b='45.83871,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='46.48387,160.23453' b='49.70968,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='50.35484,160.23453' b='53.58065,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='54.22581,160.23453' b='57.45161,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='58.09677,160.23453' b='61.32258,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='61.96774,160.23453' b='65.19355,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='65.83871,160.23453' b='69.06452,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='69.70968,160.23453' b='72.93548,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='73.58065,160.23453' b='76.80645,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='77.45161,160.23453' b='80.67742,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='81.32258,160.23453' b='84.54839,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='85.19355,160.23453' b='88.41935,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='89.06452,160.23453' b='92.29032,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='92.93548,160.23453' b='96.16129,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='96.80645,160.23453' b='100.03226,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='100.67742,160.23453' b='103.90323,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+					<ELLIPSE a='104.54839,160.23453' b='107.77419,157.01714' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='13.90323,161.84323' b='109.38710,97.81714' style='3' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+				</VisualCom>
+				<VisualCom>
+					<ELLIPSE a='99.11740,188.22769' b='102.34320,185.01030' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='103.30572,184.47789' b='106.52276,187.69844' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>1</GRID>
+			<UNITS>0</UNITS>
+			<TARGET>1</TARGET>
+			<VTIME>0</VTIME>
+			<UTIME>1</UTIME>
+			<SIMTYPE>0</SIMTYPE>
+			<SIMECOUNT>10</SIMECOUNT>
+			<SIMREFRESH>100</SIMREFRESH>
+			<SIMPEROID>1000</SIMPEROID>
+			<SIMAFTER>10</SIMAFTER>
+			<WRREMOTE>1</WRREMOTE>
+			<RDREMOTE>1</RDREMOTE>
+			<DEREMOTE>1</DEREMOTE>
+			<ENREMOTE>1</ENREMOTE>
+			<ENRUNINFO>-1</ENRUNINFO>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>4040C0</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+			<PINASSIGN_OFFBK>C0C0C0</PINASSIGN_OFFBK>
+			<PINASSIGN_FIXCELL_BKCLR>E0FFFF</PINASSIGN_FIXCELL_BKCLR>
+			<PINASSIGNFIXCELL_TXTCLR>000000</PINASSIGNFIXCELL_TXTCLR>
+			<PINASSIGN_UNFIXODD_BKCLR>A6CAF0</PINASSIGN_UNFIXODD_BKCLR>
+			<PINASSIGN_UNFIXEVEN_BKCLR>E0FFFF</PINASSIGN_UNFIXEVEN_BKCLR>
+			<PINASSIGN_UNFIXODD_TXTCLR>000000</PINASSIGN_UNFIXODD_TXTCLR>
+			<PINASSIGN_UNFIXEVEN_TXTCLR>000000</PINASSIGN_UNFIXEVEN_TXTCLR>
+			<PINASSIGN_GLINE_CLR>A0A0A0</PINASSIGN_GLINE_CLR>
+			<PINASSIGN_UNASSIGNED_BKCLR>0000FF</PINASSIGN_UNASSIGNED_BKCLR>
+			<PINASSIGN_ASSIGNED_BKCLR>00FF00</PINASSIGN_ASSIGNED_BKCLR>
+			<PINASSIGN_EXCEED_BKCLR>00FFFF</PINASSIGN_EXCEED_BKCLR>
+			<PINASSIGN_TRIGGER_BKCLR>FFFF00</PINASSIGN_TRIGGER_BKCLR>
+			<PINASSIGN_CNTLR_BKCLR>FF39FF</PINASSIGN_CNTLR_BKCLR>
+			<PINASSIGN_PWRGND_BKCLR>0014D7</PINASSIGN_PWRGND_BKCLR>
+			<PINASSIGN_NOELEC_BKCLR>C0C0C0</PINASSIGN_NOELEC_BKCLR>
+		</OPTIONS>
+		<PIN pos='17.42000,62.62000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'></PIN>
+		<PIN pos='19.42000,62.62000' which='0' elec='0' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'></PIN>
+		<PIN pos='21.42000,62.62000' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'></PIN>
+		<PIN pos='23.42000,62.62000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'></PIN>
+		<RECTANGLE a='13.22000,56.62000' b='72.42000,16.82000' style='3' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<ELLIPSE a='16.22000,55.62000' b='14.22000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,53.22000' b='14.22000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,50.82000' b='14.22000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,48.42000' b='14.22000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,46.02000' b='14.22000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,43.62000' b='14.22000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,41.22000' b='14.22000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,38.82000' b='14.22000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,36.42000' b='14.22000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,34.02000' b='14.22000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,31.62000' b='14.22000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,29.22000' b='14.22000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,26.82000' b='14.22000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,24.42000' b='14.22000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,22.02000' b='14.22000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.22000,19.62000' b='14.22000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,19.62000' b='18.62000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,19.62000' b='21.02000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,19.62000' b='23.42000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,19.62000' b='25.82000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,19.62000' b='28.22000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,19.62000' b='30.62000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,19.62000' b='33.02000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,19.62000' b='35.42000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,19.62000' b='37.82000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,19.62000' b='40.22000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,19.62000' b='42.62000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,19.62000' b='45.02000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,19.62000' b='47.42000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,19.62000' b='49.82000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,19.62000' b='52.22000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,19.62000' b='54.62000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,19.62000' b='57.02000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,19.62000' b='59.42000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,19.62000' b='61.82000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,19.62000' b='64.22000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,19.62000' b='66.62000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,19.62000' b='69.02000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,19.62000' b='71.42000,17.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,22.02000' b='18.62000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,22.02000' b='21.02000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,22.02000' b='23.42000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,22.02000' b='25.82000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,22.02000' b='28.22000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,22.02000' b='30.62000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,22.02000' b='33.02000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,22.02000' b='35.42000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,22.02000' b='37.82000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,22.02000' b='40.22000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,22.02000' b='42.62000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,22.02000' b='45.02000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,22.02000' b='47.42000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,22.02000' b='49.82000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,22.02000' b='52.22000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,22.02000' b='54.62000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,22.02000' b='57.02000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,22.02000' b='59.42000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,22.02000' b='61.82000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,22.02000' b='64.22000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,22.02000' b='66.62000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,22.02000' b='69.02000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,22.02000' b='71.42000,20.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,24.42000' b='18.62000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,24.42000' b='21.02000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,24.42000' b='23.42000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,24.42000' b='25.82000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,24.42000' b='28.22000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,24.42000' b='30.62000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,24.42000' b='33.02000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,24.42000' b='35.42000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,24.42000' b='37.82000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,24.42000' b='40.22000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,24.42000' b='42.62000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,24.42000' b='45.02000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,24.42000' b='47.42000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,24.42000' b='49.82000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,24.42000' b='52.22000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,24.42000' b='54.62000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,24.42000' b='57.02000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,24.42000' b='59.42000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,24.42000' b='61.82000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,24.42000' b='64.22000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,24.42000' b='66.62000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,24.42000' b='69.02000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,24.42000' b='71.42000,22.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,26.82000' b='18.62000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,26.82000' b='21.02000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,26.82000' b='23.42000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,26.82000' b='25.82000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,26.82000' b='28.22000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,26.82000' b='30.62000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,26.82000' b='33.02000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,26.82000' b='35.42000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,26.82000' b='37.82000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,26.82000' b='40.22000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,26.82000' b='42.62000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,26.82000' b='45.02000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,26.82000' b='47.42000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,26.82000' b='49.82000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,26.82000' b='52.22000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,26.82000' b='54.62000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,26.82000' b='57.02000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,26.82000' b='59.42000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,26.82000' b='61.82000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,26.82000' b='64.22000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,26.82000' b='66.62000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,26.82000' b='69.02000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,26.82000' b='71.42000,24.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,29.22000' b='18.62000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,29.22000' b='21.02000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,29.22000' b='23.42000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,29.22000' b='25.82000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,29.22000' b='28.22000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,29.22000' b='30.62000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,29.22000' b='33.02000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,29.22000' b='35.42000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,29.22000' b='37.82000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,29.22000' b='40.22000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,29.22000' b='42.62000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,29.22000' b='45.02000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,29.22000' b='47.42000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,29.22000' b='49.82000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,29.22000' b='52.22000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,29.22000' b='54.62000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,29.22000' b='57.02000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,29.22000' b='59.42000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,29.22000' b='61.82000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,29.22000' b='64.22000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,29.22000' b='66.62000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,29.22000' b='69.02000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,29.22000' b='71.42000,27.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,31.62000' b='18.62000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,31.62000' b='21.02000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,31.62000' b='23.42000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,31.62000' b='25.82000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,31.62000' b='28.22000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,31.62000' b='30.62000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,31.62000' b='33.02000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,31.62000' b='35.42000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,31.62000' b='37.82000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,31.62000' b='40.22000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,31.62000' b='42.62000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,31.62000' b='45.02000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,31.62000' b='47.42000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,31.62000' b='49.82000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,31.62000' b='52.22000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,31.62000' b='54.62000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,31.62000' b='57.02000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,31.62000' b='59.42000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,31.62000' b='61.82000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,31.62000' b='64.22000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,31.62000' b='66.62000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,31.62000' b='69.02000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,31.62000' b='71.42000,29.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,34.02000' b='18.62000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,34.02000' b='21.02000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,34.02000' b='23.42000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,34.02000' b='25.82000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,34.02000' b='28.22000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,34.02000' b='30.62000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,34.02000' b='33.02000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,34.02000' b='35.42000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,34.02000' b='37.82000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,34.02000' b='40.22000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,34.02000' b='42.62000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,34.02000' b='45.02000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,34.02000' b='47.42000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,34.02000' b='49.82000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,34.02000' b='52.22000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,34.02000' b='54.62000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,34.02000' b='57.02000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,34.02000' b='59.42000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,34.02000' b='61.82000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,34.02000' b='64.22000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,34.02000' b='66.62000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,34.02000' b='69.02000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,34.02000' b='71.42000,32.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,36.42000' b='18.62000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,36.42000' b='21.02000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,36.42000' b='23.42000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,36.42000' b='25.82000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,36.42000' b='28.22000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,36.42000' b='30.62000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,36.42000' b='33.02000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,36.42000' b='35.42000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,36.42000' b='37.82000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,36.42000' b='40.22000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,36.42000' b='42.62000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,36.42000' b='45.02000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,36.42000' b='47.42000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,36.42000' b='49.82000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,36.42000' b='52.22000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,36.42000' b='54.62000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,36.42000' b='57.02000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,36.42000' b='59.42000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,36.42000' b='61.82000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,36.42000' b='64.22000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,36.42000' b='66.62000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,36.42000' b='69.02000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,36.42000' b='71.42000,34.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,38.82000' b='18.62000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,38.82000' b='21.02000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,38.82000' b='23.42000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,38.82000' b='25.82000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,38.82000' b='28.22000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,38.82000' b='30.62000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,38.82000' b='33.02000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,38.82000' b='35.42000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,38.82000' b='37.82000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,38.82000' b='40.22000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,38.82000' b='42.62000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,38.82000' b='45.02000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,38.82000' b='47.42000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,38.82000' b='49.82000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,38.82000' b='52.22000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,38.82000' b='54.62000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,38.82000' b='57.02000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,38.82000' b='59.42000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,38.82000' b='61.82000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,38.82000' b='64.22000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,38.82000' b='66.62000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,38.82000' b='69.02000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,38.82000' b='71.42000,36.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,41.22000' b='18.62000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,41.22000' b='21.02000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,41.22000' b='23.42000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,41.22000' b='25.82000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,41.22000' b='28.22000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,41.22000' b='30.62000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,41.22000' b='33.02000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,41.22000' b='35.42000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,41.22000' b='37.82000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,41.22000' b='40.22000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,41.22000' b='42.62000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,41.22000' b='45.02000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,41.22000' b='47.42000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,41.22000' b='49.82000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,41.22000' b='52.22000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,41.22000' b='54.62000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,41.22000' b='57.02000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,41.22000' b='59.42000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,41.22000' b='61.82000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,41.22000' b='64.22000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,41.22000' b='66.62000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,41.22000' b='69.02000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,41.22000' b='71.42000,39.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,43.62000' b='18.62000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,43.62000' b='21.02000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,43.62000' b='23.42000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,43.62000' b='25.82000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,43.62000' b='28.22000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,43.62000' b='30.62000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,43.62000' b='33.02000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,43.62000' b='35.42000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,43.62000' b='37.82000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,43.62000' b='40.22000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,43.62000' b='42.62000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,43.62000' b='45.02000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,43.62000' b='47.42000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,43.62000' b='49.82000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,43.62000' b='52.22000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,43.62000' b='54.62000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,43.62000' b='57.02000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,43.62000' b='59.42000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,43.62000' b='61.82000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,43.62000' b='64.22000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,43.62000' b='66.62000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,43.62000' b='69.02000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,43.62000' b='71.42000,41.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,46.02000' b='18.62000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,46.02000' b='21.02000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,46.02000' b='23.42000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,46.02000' b='25.82000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,46.02000' b='28.22000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,46.02000' b='30.62000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,46.02000' b='33.02000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,46.02000' b='35.42000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,46.02000' b='37.82000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,46.02000' b='40.22000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,46.02000' b='42.62000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,46.02000' b='45.02000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,46.02000' b='47.42000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,46.02000' b='49.82000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,46.02000' b='52.22000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,46.02000' b='54.62000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,46.02000' b='57.02000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,46.02000' b='59.42000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,46.02000' b='61.82000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,46.02000' b='64.22000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,46.02000' b='66.62000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,46.02000' b='69.02000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,46.02000' b='71.42000,44.02000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,48.42000' b='18.62000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,48.42000' b='21.02000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,48.42000' b='23.42000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,48.42000' b='25.82000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,48.42000' b='28.22000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,48.42000' b='30.62000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,48.42000' b='33.02000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,48.42000' b='35.42000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,48.42000' b='37.82000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,48.42000' b='40.22000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,48.42000' b='42.62000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,48.42000' b='45.02000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,48.42000' b='47.42000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,48.42000' b='49.82000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,48.42000' b='52.22000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,48.42000' b='54.62000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,48.42000' b='57.02000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,48.42000' b='59.42000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,48.42000' b='61.82000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,48.42000' b='64.22000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,48.42000' b='66.62000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,48.42000' b='69.02000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,48.42000' b='71.42000,46.42000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,50.82000' b='18.62000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,50.82000' b='21.02000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,50.82000' b='23.42000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,50.82000' b='25.82000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,50.82000' b='28.22000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,50.82000' b='30.62000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,50.82000' b='33.02000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,50.82000' b='35.42000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,50.82000' b='37.82000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,50.82000' b='40.22000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,50.82000' b='42.62000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,50.82000' b='45.02000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,50.82000' b='47.42000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,50.82000' b='49.82000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,50.82000' b='52.22000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,50.82000' b='54.62000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,50.82000' b='57.02000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,50.82000' b='59.42000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,50.82000' b='61.82000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,50.82000' b='64.22000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,50.82000' b='66.62000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,50.82000' b='69.02000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,50.82000' b='71.42000,48.82000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,53.22000' b='18.62000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,53.22000' b='21.02000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,53.22000' b='23.42000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,53.22000' b='25.82000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,53.22000' b='28.22000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,53.22000' b='30.62000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,53.22000' b='33.02000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,53.22000' b='35.42000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,53.22000' b='37.82000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,53.22000' b='40.22000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,53.22000' b='42.62000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,53.22000' b='45.02000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,53.22000' b='47.42000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,53.22000' b='49.82000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,53.22000' b='52.22000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,53.22000' b='54.62000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,53.22000' b='57.02000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,53.22000' b='59.42000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,53.22000' b='61.82000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,53.22000' b='64.22000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,53.22000' b='66.62000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,53.22000' b='69.02000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,53.22000' b='71.42000,51.22000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='16.62000,55.62000' b='18.62000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='19.02000,55.62000' b='21.02000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='21.42000,55.62000' b='23.42000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='23.82000,55.62000' b='25.82000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='26.22000,55.62000' b='28.22000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='28.62000,55.62000' b='30.62000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='31.02000,55.62000' b='33.02000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='33.42000,55.62000' b='35.42000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='35.82000,55.62000' b='37.82000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='38.22000,55.62000' b='40.22000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='40.62000,55.62000' b='42.62000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='43.02000,55.62000' b='45.02000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='45.42000,55.62000' b='47.42000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='47.82000,55.62000' b='49.82000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='50.22000,55.62000' b='52.22000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='52.62000,55.62000' b='54.62000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='55.02000,55.62000' b='57.02000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='57.42000,55.62000' b='59.42000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='59.82000,55.62000' b='61.82000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='62.22000,55.62000' b='64.22000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='64.62000,55.62000' b='66.62000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='67.02000,55.62000' b='69.02000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='69.42000,55.62000' b='71.42000,53.62000' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<PIN pos='143.50822,87.07060' which='0' elec='0' direction='0' part='0' number='1' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>CS_N</PIN>
+		<PIN pos='146.73403,87.07060' which='0' elec='0' direction='0' part='0' number='2' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>WR_N</PIN>
+		<PIN pos='149.95983,87.07060' which='0' elec='0' direction='0' part='0' number='3' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>RD_N</PIN>
+		<PIN pos='153.18564,87.07060' which='0' elec='0' direction='0' part='0' number='4' show='2' length='48' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>DATA</PIN>
+		<RECTANGLE a='137.81403,77.47843' b='233.29790,13.45234' style='3' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='3B3B3B'/>
+		<ELLIPSE a='142.65274,75.86973' b='139.42693,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,72.00886' b='139.42693,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,68.14799' b='139.42693,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,64.28712' b='139.42693,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,60.42625' b='139.42693,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,56.56538' b='139.42693,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,52.70451' b='139.42693,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,48.84364' b='139.42693,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,44.98277' b='139.42693,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,41.12190' b='139.42693,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,37.26103' b='139.42693,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,33.40017' b='139.42693,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,29.53930' b='139.42693,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,25.67843' b='139.42693,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,21.81756' b='139.42693,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='142.65274,17.95669' b='139.42693,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,17.95669' b='146.52370,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,17.95669' b='150.39467,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,17.95669' b='154.26564,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,17.95669' b='158.13661,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,17.95669' b='162.00757,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,17.95669' b='165.87854,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,17.95669' b='169.74951,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,17.95669' b='173.62048,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,17.95669' b='177.49145,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,17.95669' b='181.36241,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,17.95669' b='185.23338,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,17.95669' b='189.10435,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,17.95669' b='192.97532,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,17.95669' b='196.84628,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,17.95669' b='200.71725,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,17.95669' b='204.58822,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,17.95669' b='208.45919,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,17.95669' b='212.33015,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,17.95669' b='216.20112,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,17.95669' b='220.07209,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,17.95669' b='223.94306,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,17.95669' b='227.81403,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,17.95669' b='231.68499,14.73930' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,21.81756' b='146.52370,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,21.81756' b='150.39467,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,21.81756' b='154.26564,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,21.81756' b='158.13661,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,21.81756' b='162.00757,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,21.81756' b='165.87854,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,21.81756' b='169.74951,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,21.81756' b='173.62048,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,21.81756' b='177.49145,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,21.81756' b='181.36241,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,21.81756' b='185.23338,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,21.81756' b='189.10435,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,21.81756' b='192.97532,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,21.81756' b='196.84628,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,21.81756' b='200.71725,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,21.81756' b='204.58822,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,21.81756' b='208.45919,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,21.81756' b='212.33015,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,21.81756' b='216.20112,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,21.81756' b='220.07209,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,21.81756' b='223.94306,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,21.81756' b='227.81403,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,21.81756' b='231.68499,18.60017' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,25.67843' b='146.52370,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,25.67843' b='150.39467,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,25.67843' b='154.26564,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,25.67843' b='158.13661,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,25.67843' b='162.00757,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,25.67843' b='165.87854,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,25.67843' b='169.74951,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,25.67843' b='173.62048,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,25.67843' b='177.49145,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,25.67843' b='181.36241,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,25.67843' b='185.23338,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,25.67843' b='189.10435,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,25.67843' b='192.97532,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,25.67843' b='196.84628,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,25.67843' b='200.71725,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,25.67843' b='204.58822,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,25.67843' b='208.45919,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,25.67843' b='212.33015,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,25.67843' b='216.20112,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,25.67843' b='220.07209,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,25.67843' b='223.94306,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,25.67843' b='227.81403,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,25.67843' b='231.68499,22.46103' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,29.53930' b='146.52370,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,29.53930' b='150.39467,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,29.53930' b='154.26564,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,29.53930' b='158.13661,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,29.53930' b='162.00757,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,29.53930' b='165.87854,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,29.53930' b='169.74951,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,29.53930' b='173.62048,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,29.53930' b='177.49145,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,29.53930' b='181.36241,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,29.53930' b='185.23338,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,29.53930' b='189.10435,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,29.53930' b='192.97532,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,29.53930' b='196.84628,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,29.53930' b='200.71725,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,29.53930' b='204.58822,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,29.53930' b='208.45919,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,29.53930' b='212.33015,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,29.53930' b='216.20112,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,29.53930' b='220.07209,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,29.53930' b='223.94306,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,29.53930' b='227.81403,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,29.53930' b='231.68499,26.32190' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,33.40017' b='146.52370,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,33.40017' b='150.39467,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,33.40017' b='154.26564,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,33.40017' b='158.13661,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,33.40017' b='162.00757,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,33.40017' b='165.87854,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,33.40017' b='169.74951,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,33.40017' b='173.62048,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,33.40017' b='177.49145,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,33.40017' b='181.36241,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,33.40017' b='185.23338,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,33.40017' b='189.10435,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,33.40017' b='192.97532,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,33.40017' b='196.84628,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,33.40017' b='200.71725,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,33.40017' b='204.58822,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,33.40017' b='208.45919,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,33.40017' b='212.33015,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,33.40017' b='216.20112,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,33.40017' b='220.07209,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,33.40017' b='223.94306,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,33.40017' b='227.81403,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,33.40017' b='231.68499,30.18277' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,37.26103' b='146.52370,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,37.26103' b='150.39467,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,37.26103' b='154.26564,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,37.26103' b='158.13661,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,37.26103' b='162.00757,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,37.26103' b='165.87854,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,37.26103' b='169.74951,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,37.26103' b='173.62048,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,37.26103' b='177.49145,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,37.26103' b='181.36241,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,37.26103' b='185.23338,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,37.26103' b='189.10435,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,37.26103' b='192.97532,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,37.26103' b='196.84628,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,37.26103' b='200.71725,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,37.26103' b='204.58822,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,37.26103' b='208.45919,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,37.26103' b='212.33015,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,37.26103' b='216.20112,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,37.26103' b='220.07209,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,37.26103' b='223.94306,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,37.26103' b='227.81403,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,37.26103' b='231.68499,34.04364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,41.12190' b='146.52370,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,41.12190' b='150.39467,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,41.12190' b='154.26564,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,41.12190' b='158.13661,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,41.12190' b='162.00757,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,41.12190' b='165.87854,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,41.12190' b='169.74951,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,41.12190' b='173.62048,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,41.12190' b='177.49145,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,41.12190' b='181.36241,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,41.12190' b='185.23338,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,41.12190' b='189.10435,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,41.12190' b='192.97532,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,41.12190' b='196.84628,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,41.12190' b='200.71725,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,41.12190' b='204.58822,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,41.12190' b='208.45919,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,41.12190' b='212.33015,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,41.12190' b='216.20112,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,41.12190' b='220.07209,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,41.12190' b='223.94306,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,41.12190' b='227.81403,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,41.12190' b='231.68499,37.90451' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,44.98277' b='146.52370,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,44.98277' b='150.39467,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,44.98277' b='154.26564,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,44.98277' b='158.13661,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,44.98277' b='162.00757,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,44.98277' b='165.87854,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,44.98277' b='169.74951,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,44.98277' b='173.62048,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,44.98277' b='177.49145,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,44.98277' b='181.36241,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,44.98277' b='185.23338,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,44.98277' b='189.10435,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,44.98277' b='192.97532,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,44.98277' b='196.84628,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,44.98277' b='200.71725,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,44.98277' b='204.58822,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,44.98277' b='208.45919,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,44.98277' b='212.33015,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,44.98277' b='216.20112,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,44.98277' b='220.07209,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,44.98277' b='223.94306,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,44.98277' b='227.81403,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,44.98277' b='231.68499,41.76538' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,48.84364' b='146.52370,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,48.84364' b='150.39467,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,48.84364' b='154.26564,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,48.84364' b='158.13661,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,48.84364' b='162.00757,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,48.84364' b='165.87854,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,48.84364' b='169.74951,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,48.84364' b='173.62048,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,48.84364' b='177.49145,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,48.84364' b='181.36241,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,48.84364' b='185.23338,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,48.84364' b='189.10435,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,48.84364' b='192.97532,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,48.84364' b='196.84628,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,48.84364' b='200.71725,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,48.84364' b='204.58822,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,48.84364' b='208.45919,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,48.84364' b='212.33015,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,48.84364' b='216.20112,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,48.84364' b='220.07209,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,48.84364' b='223.94306,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,48.84364' b='227.81403,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,48.84364' b='231.68499,45.62625' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,52.70451' b='146.52370,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,52.70451' b='150.39467,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,52.70451' b='154.26564,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,52.70451' b='158.13661,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,52.70451' b='162.00757,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,52.70451' b='165.87854,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,52.70451' b='169.74951,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,52.70451' b='173.62048,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,52.70451' b='177.49145,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,52.70451' b='181.36241,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,52.70451' b='185.23338,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,52.70451' b='189.10435,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,52.70451' b='192.97532,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,52.70451' b='196.84628,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,52.70451' b='200.71725,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,52.70451' b='204.58822,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,52.70451' b='208.45919,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,52.70451' b='212.33015,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,52.70451' b='216.20112,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,52.70451' b='220.07209,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,52.70451' b='223.94306,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,52.70451' b='227.81403,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,52.70451' b='231.68499,49.48712' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,56.56538' b='146.52370,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,56.56538' b='150.39467,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,56.56538' b='154.26564,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,56.56538' b='158.13661,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,56.56538' b='162.00757,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,56.56538' b='165.87854,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,56.56538' b='169.74951,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,56.56538' b='173.62048,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,56.56538' b='177.49145,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,56.56538' b='181.36241,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,56.56538' b='185.23338,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,56.56538' b='189.10435,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,56.56538' b='192.97532,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,56.56538' b='196.84628,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,56.56538' b='200.71725,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,56.56538' b='204.58822,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,56.56538' b='208.45919,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,56.56538' b='212.33015,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,56.56538' b='216.20112,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,56.56538' b='220.07209,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,56.56538' b='223.94306,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,56.56538' b='227.81403,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,56.56538' b='231.68499,53.34799' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,60.42625' b='146.52370,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,60.42625' b='150.39467,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,60.42625' b='154.26564,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,60.42625' b='158.13661,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,60.42625' b='162.00757,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,60.42625' b='165.87854,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,60.42625' b='169.74951,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,60.42625' b='173.62048,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,60.42625' b='177.49145,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,60.42625' b='181.36241,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,60.42625' b='185.23338,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,60.42625' b='189.10435,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,60.42625' b='192.97532,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,60.42625' b='196.84628,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,60.42625' b='200.71725,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,60.42625' b='204.58822,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,60.42625' b='208.45919,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,60.42625' b='212.33015,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,60.42625' b='216.20112,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,60.42625' b='220.07209,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,60.42625' b='223.94306,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,60.42625' b='227.81403,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,60.42625' b='231.68499,57.20886' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,64.28712' b='146.52370,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,64.28712' b='150.39467,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,64.28712' b='154.26564,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,64.28712' b='158.13661,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,64.28712' b='162.00757,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,64.28712' b='165.87854,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,64.28712' b='169.74951,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,64.28712' b='173.62048,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,64.28712' b='177.49145,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,64.28712' b='181.36241,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,64.28712' b='185.23338,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,64.28712' b='189.10435,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,64.28712' b='192.97532,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,64.28712' b='196.84628,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,64.28712' b='200.71725,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,64.28712' b='204.58822,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,64.28712' b='208.45919,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,64.28712' b='212.33015,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,64.28712' b='216.20112,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,64.28712' b='220.07209,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,64.28712' b='223.94306,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,64.28712' b='227.81403,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,64.28712' b='231.68499,61.06973' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,68.14799' b='146.52370,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,68.14799' b='150.39467,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,68.14799' b='154.26564,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,68.14799' b='158.13661,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,68.14799' b='162.00757,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,68.14799' b='165.87854,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,68.14799' b='169.74951,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,68.14799' b='173.62048,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,68.14799' b='177.49145,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,68.14799' b='181.36241,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,68.14799' b='185.23338,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,68.14799' b='189.10435,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,68.14799' b='192.97532,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,68.14799' b='196.84628,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,68.14799' b='200.71725,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,68.14799' b='204.58822,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,68.14799' b='208.45919,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,68.14799' b='212.33015,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,68.14799' b='216.20112,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,68.14799' b='220.07209,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,68.14799' b='223.94306,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,68.14799' b='227.81403,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,68.14799' b='231.68499,64.93060' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,72.00886' b='146.52370,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,72.00886' b='150.39467,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,72.00886' b='154.26564,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,72.00886' b='158.13661,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,72.00886' b='162.00757,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,72.00886' b='165.87854,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,72.00886' b='169.74951,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,72.00886' b='173.62048,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,72.00886' b='177.49145,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,72.00886' b='181.36241,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,72.00886' b='185.23338,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,72.00886' b='189.10435,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,72.00886' b='192.97532,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,72.00886' b='196.84628,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,72.00886' b='200.71725,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,72.00886' b='204.58822,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,72.00886' b='208.45919,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,72.00886' b='212.33015,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,72.00886' b='216.20112,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,72.00886' b='220.07209,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,72.00886' b='223.94306,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,72.00886' b='227.81403,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,72.00886' b='231.68499,68.79147' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='143.29790,75.86973' b='146.52370,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='147.16886,75.86973' b='150.39467,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='151.03983,75.86973' b='154.26564,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='154.91080,75.86973' b='158.13661,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='158.78177,75.86973' b='162.00757,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='162.65274,75.86973' b='165.87854,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='166.52370,75.86973' b='169.74951,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='170.39467,75.86973' b='173.62048,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='174.26564,75.86973' b='177.49145,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='178.13661,75.86973' b='181.36241,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='182.00757,75.86973' b='185.23338,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='185.87854,75.86973' b='189.10435,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='189.74951,75.86973' b='192.97532,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='193.62048,75.86973' b='196.84628,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='197.49145,75.86973' b='200.71725,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='201.36241,75.86973' b='204.58822,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='205.23338,75.86973' b='208.45919,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='209.10435,75.86973' b='212.33015,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='212.97532,75.86973' b='216.20112,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='216.84628,75.86973' b='220.07209,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='220.71725,75.86973' b='223.94306,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='224.58822,75.86973' b='227.81403,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='228.45919,75.86973' b='231.68499,72.65234' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<ELLIPSE a='223.02820,103.86289' b='226.25400,100.64550' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<RECTANGLE a='227.21652,100.11309' b='230.43356,103.33364' style='3' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='A4A0A0'/>
+		<NOTE_TEXT a='134.35536,119.22210' b='246.35536,163.22210' direction='3' style='4' fill='7' font='3' color='000000' border_style='1' lstyle='0' lthickness='1' lcolor='0000FF' fstyle='0' fcolor='AFFFFF'>如果与硬件模块配合使用，触发类型引脚必须进行恰当处理。如果某触发引脚未使用，应该将其设置为“未分配”或“输入上拉（下拉）”，切勿设置为“输入悬空”（除非硬件外部已经进行连接拉电阻），否则可能会出现莫名其妙的问题（因为触发引脚由于没有固定电平而随机触发），元件模型的行为与实际元件是完全一致的</NOTE_TEXT>
+		<SYMBOL id='1' pos='110.70380,177.84540' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' run_info='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='MLED24X16M01S02B' show='-1' pos='1.00000,-71.61826'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='M' show='-1' pos='1.00000,-69.21826'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='0' show='0' pos='1.00000,-64.41826'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='MLED24X16M01S02B.DLL' show='0' pos='1.00000,-62.01826'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-59.61826'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='-1' pos='1.00000,-66.81826'/>
+			<FIELD id='100' pt='3' extra='' description='' type='1' name='背景' value='3b3b3b' show='0' pos='1.00000,-57.21826'/>
+			<FIELD id='101' pt='3' extra='' description='发光像素的填充颜色' type='1' name='点亮' value='ffffff' show='0' pos='1.00000,-54.81826'/>
+			<FIELD id='102' pt='3' extra='' description='发光像素的边框颜色' type='1' name='点亮边框' value='ffffff' show='0' pos='1.00000,-52.41826'/>
+			<FIELD id='103' pt='3' extra='' description='熄灭像素的填充颜色' type='1' name='熄灭' value='000000' show='0' pos='1.00000,-50.01826'/>
+			<FIELD id='104' pt='3' extra='' description='熄灭像素的边框颜色' type='1' name='熄灭边框' value='000000' show='0' pos='1.00000,-47.61826'/>
+			<FIELD id='105' pt='5' extra='圆形,方形' description='像素的形状' type='1' name='形状' value='圆形' show='0' pos='1.00000,-45.21826'/>
+			<FIELD id='106' pt='2' extra='' description='是否将写入的4位DRAM数据反序' type='1' name='数据位反序' value='0' show='0' pos='1.00000,-42.81826'/>
+			<PINDATA id='1' name='CS_N' number='1' elec='0' deflevel='1' extra='0' ttrigger='1' tcontroller='0' tcntlrpin='0' tnumber='4'/>
+			<PINDATA id='2' name='WR_N' number='2' elec='0' deflevel='1' extra='0' ttrigger='1' tcontroller='0' tcntlrpin='0' tnumber='1'/>
+			<PINDATA id='3' name='RD_N' number='3' elec='0' deflevel='1' extra='0' ttrigger='1' tcontroller='0' tcntlrpin='0' tnumber='2'/>
+			<PINDATA id='4' name='DATA' number='4' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='3'/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>

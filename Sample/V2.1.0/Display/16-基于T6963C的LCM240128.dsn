@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by VisualCom 2.00.03 Production Release
+If you wish to view this file 
+download the executable.-->
+<VisualComSheets>
+	<VisualCom>
+		<NAME></NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100.00000' snap='1'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='5'>
+			<INDEX>0</INDEX>
+			<COLOR>AAC8C8</COLOR>
+		</FILL>
+		<FILL id='6'>
+			<INDEX>0</INDEX>
+			<COLOR>004632</COLOR>
+		</FILL>
+		<FILL id='7'>
+			<INDEX>0</INDEX>
+			<COLOR>0000FF</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>LM3229</NAME>
+			<REF type='0'>LCD</REF>
+			<DESCRIPTION>240x128 Graphical LCD with T6963C controller</DESCRIPTION>
+			<PPP>3</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<ID>1</ID>
+				<NAME>Name</NAME>
+				<DEFAULT>LM3229</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>2</ID>
+				<NAME>Ref</NAME>
+				<DEFAULT>LCD</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>3</ID>
+				<NAME>SimType</NAME>
+				<DEFAULT>0</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>4</ID>
+				<NAME>SimFile</NAME>
+				<DEFAULT>LM3229.DLL</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>5</ID>
+				<NAME>SimParam</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>6</ID>
+				<NAME>Val</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000000</FT>
+				<PT>000000</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>100</ID>
+				<NAME>DDRAM起始</NAME>
+				<DEFAULT>236</DEFAULT>
+				<DESCRIPTION>DDRAM起始地址（范围0～65535）</DESCRIPTION>
+				<EXTRA>0,65535</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>101</ID>
+				<NAME>DDRAM数量</NAME>
+				<DEFAULT>7</DEFAULT>
+				<DESCRIPTION>从起始地址显示多少DDRAM地址（范围1～5000,警告：设置过大将导致加载时间过长)</DESCRIPTION>
+				<EXTRA>1,5000</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>102</ID>
+				<NAME>GDRAM起始</NAME>
+				<DEFAULT>512</DEFAULT>
+				<DESCRIPTION>GDRAM起始地址（范围0～65535）</DESCRIPTION>
+				<EXTRA>0,65535</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>103</ID>
+				<NAME>GDRAM数量</NAME>
+				<DEFAULT>10</DEFAULT>
+				<DESCRIPTION>从起始地址显示多少GDRAM地址（范围1～5000,警告：设置过大将导致加载时间过长)</DESCRIPTION>
+				<EXTRA>1,5000</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>104</ID>
+				<NAME>CGRAM起始</NAME>
+				<DEFAULT>7168</DEFAULT>
+				<DESCRIPTION>CGRAM起始地址（范围0～65535）</DESCRIPTION>
+				<EXTRA>0,65535</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>105</ID>
+				<NAME>CGRAM数量</NAME>
+				<DEFAULT>3</DEFAULT>
+				<DESCRIPTION>从起始地址显示多少CGRAM地址（范围1～5000,警告：设置过大将导致加载时间过长)</DESCRIPTION>
+				<EXTRA>1,5000</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>106</ID>
+				<NAME>图片起始</NAME>
+				<DEFAULT>512</DEFAULT>
+				<DESCRIPTION>将图片数据从哪个起始地址开始初始化，应该与你要设置的图形区域首地址相同（范围0～65535)</DESCRIPTION>
+				<EXTRA>0,65535</EXTRA>
+				<FT>000001</FT>
+				<PT>000001</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>107</ID>
+				<NAME>图片</NAME>
+				<DEFAULT></DEFAULT>
+				<DESCRIPTION>指定初始化到GDRAM的图片</DESCRIPTION>
+				<EXTRA>BMP格式图片(*.bmp)|*.bmp|</EXTRA>
+				<FT>000001</FT>
+				<PT>000004</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>108</ID>
+				<NAME>背景</NAME>
+				<DEFAULT>00c0c0</DEFAULT>
+				<DESCRIPTION></DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>109</ID>
+				<NAME>点亮</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>发光像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>110</ID>
+				<NAME>点亮边框</NAME>
+				<DEFAULT>000000</DEFAULT>
+				<DESCRIPTION>发光像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>111</ID>
+				<NAME>熄灭</NAME>
+				<DEFAULT>00c0c0</DEFAULT>
+				<DESCRIPTION>熄灭像素的填充颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<ID>112</ID>
+				<NAME>熄灭边框</NAME>
+				<DEFAULT>00c0c0</DEFAULT>
+				<DESCRIPTION>熄灭像素的边框颜色</DESCRIPTION>
+				<EXTRA></EXTRA>
+				<FT>000001</FT>
+				<PT>000003</PT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='98.32000,84.00000'/>
+			<VisualComSheets>
+				<VisualCom>
+					<RECTANGLE a='9.72000,21.35396' b='98.32000,78.15396' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+					<RECTANGLE a='11.11144,23.20492' b='96.71144,70.99647' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+					<PIN pos='34.00000,84.00000' which='0' elec='3' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='0' trigger_type='0' cntlr_type='0' cntlr_pin='0'>VSS</PIN>
+					<PIN pos='36.00000,84.00000' which='0' elec='4' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>VDD</PIN>
+					<PIN pos='38.00000,84.00000' which='0' elec='5' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>V0</PIN>
+					<PIN pos='40.00000,84.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>C/D#</PIN>
+					<PIN pos='42.00000,84.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>RD#</PIN>
+					<PIN pos='44.00000,84.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>WR#</PIN>
+					<PIN pos='46.00000,84.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D0</PIN>
+					<PIN pos='48.00000,84.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D1</PIN>
+					<PIN pos='50.00000,84.00000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D2</PIN>
+					<PIN pos='52.00000,84.00000' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D3</PIN>
+					<PIN pos='54.00000,84.00000' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D4</PIN>
+					<PIN pos='56.00000,84.00000' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D5</PIN>
+					<PIN pos='58.00000,84.00000' which='0' elec='0' direction='0' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D6</PIN>
+					<PIN pos='60.00000,84.00000' which='0' elec='0' direction='0' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D7</PIN>
+					<PIN pos='62.00000,84.00000' which='0' elec='0' direction='0' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>CE#</PIN>
+					<PIN pos='64.00000,84.00000' which='0' elec='0' direction='0' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>RST#</PIN>
+					<PIN pos='66.00000,84.00000' which='0' elec='5' direction='0' part='0' number='17' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>VEE</PIN>
+					<PIN pos='68.00000,84.00000' which='0' elec='5' direction='0' part='0' number='18' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>MD2</PIN>
+					<PIN pos='70.00000,84.00000' which='0' elec='5' direction='0' part='0' number='19' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>FS1</PIN>
+					<PIN pos='72.00000,84.00000' which='0' elec='5' direction='0' part='0' number='20' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>HALT</PIN>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='12.03880,123.92825' b='97.63880,171.71980' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+				</VisualCom>
+				<VisualCom>
+					<RECTANGLE a='33.65157,185.73766' b='34.14680,186.22780' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+				</VisualCom>
+			</VisualComSheets>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<TARGET>1</TARGET>
+			<VTIME>100</VTIME>
+			<UTIME>1</UTIME>
+			<SIMTYPE>0</SIMTYPE>
+			<SIMECOUNT>10</SIMECOUNT>
+			<SIMREFRESH>500</SIMREFRESH>
+			<SIMPEROID>1000</SIMPEROID>
+			<SIMAFTER>10</SIMAFTER>
+			<WRREMOTE>1</WRREMOTE>
+			<RDREMOTE>1</RDREMOTE>
+			<DEREMOTE>1</DEREMOTE>
+			<ENREMOTE>1</ENREMOTE>
+			<ENRUNINFO>-1</ENRUNINFO>
+			<OFFPAGE_COLOR>C0C0C0</OFFPAGE_COLOR>
+			<PAGE_COLOR>FFFFFF</PAGE_COLOR>
+			<PAGE_OUTLINE_COLOR>0000FF</PAGE_OUTLINE_COLOR>
+			<GRID_COLOR>000000</GRID_COLOR>
+			<SELECTED_COLOR>0000FF</SELECTED_COLOR>
+			<SELCT_BORDER_COLOR>FF0000</SELCT_BORDER_COLOR>
+			<WIRE_COLOR>FF0000</WIRE_COLOR>
+			<BUS_COLOR>0000FF</BUS_COLOR>
+			<JUNCTION_COLOR>000080</JUNCTION_COLOR>
+			<NOCONNECT_COLOR>000000</NOCONNECT_COLOR>
+			<POWER_COLOR>000000</POWER_COLOR>
+			<PIN_COLOR>000000</PIN_COLOR>
+			<DEVICE_BORDER_COLOR>4040C0</DEVICE_BORDER_COLOR>
+			<HIDDENG_PIN_COLOR>208020</HIDDENG_PIN_COLOR>
+			<DEVICE_NAME_COLOR>000000</DEVICE_NAME_COLOR>
+			<REFERENCE_COLOR>000000</REFERENCE_COLOR>
+			<PIN_NUMBER_COLOR>000000</PIN_NUMBER_COLOR>
+			<PIN_NAME_COLOR>000000</PIN_NAME_COLOR>
+			<NET_NAME_COLOR>000000</NET_NAME_COLOR>
+			<TEXT_TEXT_COLOR>000000</TEXT_TEXT_COLOR>
+			<TEXT_FILL_COLOR>AFFFFF</TEXT_FILL_COLOR>
+			<NOTETEXT_FILL_COLOR>AFFFFF</NOTETEXT_FILL_COLOR>
+			<NOTETEXT_LINE_COLOR>0000FF</NOTETEXT_LINE_COLOR>
+			<NOTETEXT_TEXT_COLOR>000000</NOTETEXT_TEXT_COLOR>
+			<POS_VOLTAGE_COLOR>AFFFFF</POS_VOLTAGE_COLOR>
+			<GROUND_VOLTAGE_COLOR>FF0000</GROUND_VOLTAGE_COLOR>
+			<NEG_VOLTAGE_COLOR>AFFFFF</NEG_VOLTAGE_COLOR>
+			<LOGIC_HIGH_COLOR>0000FF</LOGIC_HIGH_COLOR>
+			<LOGIC_LOW_COLOR>FF0000</LOGIC_LOW_COLOR>
+			<LOGIC_UNKNOW_COLOR>404040</LOGIC_UNKNOW_COLOR>
+			<PIN_HOT_SPOT_COLOR>D0D0D0</PIN_HOT_SPOT_COLOR>
+			<ID_SELECTABLE_COLOR>D0D0D0</ID_SELECTABLE_COLOR>
+			<PRODATA_OFFTABLE_BKCLR>C0C0C0</PRODATA_OFFTABLE_BKCLR>
+			<PRODATA_FIXCELL_BKCLR>E0FFFF</PRODATA_FIXCELL_BKCLR>
+			<PRODATA_FIXCELL_TXTCLR>000000</PRODATA_FIXCELL_TXTCLR>
+			<PRODATA_UNFIXCELL_BKCLR>E0FFFF</PRODATA_UNFIXCELL_BKCLR>
+			<PRODATA_UNFIXCELL_TXTCLR>000000</PRODATA_UNFIXCELL_TXTCLR>
+			<PRODATA_GLINE_CLR>A0A0A0</PRODATA_GLINE_CLR>
+			<PINASSIGN_OFFBK>C0C0C0</PINASSIGN_OFFBK>
+			<PINASSIGN_FIXCELL_BKCLR>E0FFFF</PINASSIGN_FIXCELL_BKCLR>
+			<PINASSIGNFIXCELL_TXTCLR>000000</PINASSIGNFIXCELL_TXTCLR>
+			<PINASSIGN_UNFIXODD_BKCLR>A6CAF0</PINASSIGN_UNFIXODD_BKCLR>
+			<PINASSIGN_UNFIXEVEN_BKCLR>E0FFFF</PINASSIGN_UNFIXEVEN_BKCLR>
+			<PINASSIGN_UNFIXODD_TXTCLR>000000</PINASSIGN_UNFIXODD_TXTCLR>
+			<PINASSIGN_UNFIXEVEN_TXTCLR>000000</PINASSIGN_UNFIXEVEN_TXTCLR>
+			<PINASSIGN_GLINE_CLR>A0A0A0</PINASSIGN_GLINE_CLR>
+			<PINASSIGN_UNASSIGNED_BKCLR>0000FF</PINASSIGN_UNASSIGNED_BKCLR>
+			<PINASSIGN_ASSIGNED_BKCLR>00FF00</PINASSIGN_ASSIGNED_BKCLR>
+			<PINASSIGN_EXCEED_BKCLR>00FFFF</PINASSIGN_EXCEED_BKCLR>
+			<PINASSIGN_TRIGGER_BKCLR>FFFF00</PINASSIGN_TRIGGER_BKCLR>
+			<PINASSIGN_CNTLR_BKCLR>9B39FF</PINASSIGN_CNTLR_BKCLR>
+			<PINASSIGN_PWRGND_BKCLR>0014D7</PINASSIGN_PWRGND_BKCLR>
+			<PINASSIGN_NOELEC_BKCLR>C0C0C0</PINASSIGN_NOELEC_BKCLR>
+		</OPTIONS>
+		<RECTANGLE a='9.72000,21.35396' b='98.32000,78.15396' style='2' fill='5' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='AAC8C8'/>
+		<RECTANGLE a='11.11144,23.20492' b='96.71144,70.99647' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+		<RECTANGLE a='12.03880,123.92825' b='97.63880,171.71980' style='2' fill='6' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='004632'/>
+		<RECTANGLE a='31.77052,185.68205' b='32.15400,186.04521' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+		<RECTANGLE a='33.65157,185.73766' b='34.14680,186.22780' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+		<RECTANGLE a='31.22419,185.70426' b='31.56704,186.04202' style='2' fill='7' lstyle='0' lthickness='1' lcolor='000000' fstyle='0' fcolor='0000FF'/>
+		<PIN pos='34.00000,84.00000' which='0' elec='3' direction='0' part='0' number='1' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='0' trigger_type='0' cntlr_type='0' cntlr_pin='0'>VSS</PIN>
+		<PIN pos='36.00000,84.00000' which='0' elec='4' direction='0' part='0' number='2' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>VDD</PIN>
+		<PIN pos='38.00000,84.00000' which='0' elec='5' direction='0' part='0' number='3' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>V0</PIN>
+		<PIN pos='40.00000,84.00000' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>C/D#</PIN>
+		<PIN pos='42.00000,84.00000' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>RD#</PIN>
+		<PIN pos='44.00000,84.00000' which='0' elec='0' direction='0' part='0' number='6' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='1' cntlr_type='0' cntlr_pin='0'>WR#</PIN>
+		<PIN pos='46.00000,84.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D0</PIN>
+		<PIN pos='48.00000,84.00000' which='0' elec='0' direction='0' part='0' number='8' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D1</PIN>
+		<PIN pos='50.00000,84.00000' which='0' elec='0' direction='0' part='0' number='9' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D2</PIN>
+		<PIN pos='52.00000,84.00000' which='0' elec='0' direction='0' part='0' number='10' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D3</PIN>
+		<PIN pos='54.00000,84.00000' which='0' elec='0' direction='0' part='0' number='11' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D4</PIN>
+		<PIN pos='56.00000,84.00000' which='0' elec='0' direction='0' part='0' number='12' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D5</PIN>
+		<PIN pos='58.00000,84.00000' which='0' elec='0' direction='0' part='0' number='13' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D6</PIN>
+		<PIN pos='60.00000,84.00000' which='0' elec='0' direction='0' part='0' number='14' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>D7</PIN>
+		<PIN pos='62.00000,84.00000' which='0' elec='0' direction='0' part='0' number='15' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>CE#</PIN>
+		<PIN pos='64.00000,84.00000' which='0' elec='0' direction='0' part='0' number='16' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>RST#</PIN>
+		<PIN pos='66.00000,84.00000' which='0' elec='5' direction='0' part='0' number='17' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>VEE</PIN>
+		<PIN pos='68.00000,84.00000' which='0' elec='5' direction='0' part='0' number='18' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>MD2</PIN>
+		<PIN pos='70.00000,84.00000' which='0' elec='5' direction='0' part='0' number='19' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>FS1</PIN>
+		<PIN pos='72.00000,84.00000' which='0' elec='5' direction='0' part='0' number='20' show='3' length='30' number_posx='0' number_posy='-1' centre_name='0' thickness='2' default_level='1' trigger_type='0' cntlr_type='0' cntlr_pin='0'>HALT</PIN>
+		<SYMBOL id='1' pos='218.00000,86.00000' part='0' rotate='0' can_scale='0' show_power='0' show_other='000006' sim_allow='1' run_info='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD id='1' pt='0' extra='' description='' type='0' name='Name' value='LM3229' show='-1' pos='1.00000,-60.64604'/>
+			<FIELD id='2' pt='0' extra='' description='' type='0' name='Ref' value='LCD' show='-1' pos='1.00000,-58.24604'/>
+			<FIELD id='3' pt='0' extra='' description='' type='1' name='SimType' value='0' show='0' pos='1.00000,-53.44604'/>
+			<FIELD id='4' pt='0' extra='' description='' type='1' name='SimFile' value='LM3229.DLL' show='0' pos='1.00000,-51.04604'/>
+			<FIELD id='5' pt='0' extra='' description='' type='1' name='SimParam' value='' show='0' pos='1.00000,-48.64604'/>
+			<FIELD id='6' pt='0' extra='' description='' type='0' name='Val' value='' show='-1' pos='1.00000,-55.84604'/>
+			<FIELD id='100' pt='1' extra='0,65535' description='DDRAM起始地址（范围0～65535）' type='1' name='DDRAM起始' value='236' show='0' pos='1.00000,-46.24604'/>
+			<FIELD id='101' pt='1' extra='1,5000' description='从起始地址显示多少DDRAM地址（范围1～5000,警告：设置过大将导致加载时间过长)' type='1' name='DDRAM数量' value='7' show='0' pos='1.00000,-43.84604'/>
+			<FIELD id='102' pt='1' extra='0,65535' description='GDRAM起始地址（范围0～65535）' type='1' name='GDRAM起始' value='512' show='0' pos='1.00000,-41.44604'/>
+			<FIELD id='103' pt='1' extra='1,5000' description='从起始地址显示多少GDRAM地址（范围1～5000,警告：设置过大将导致加载时间过长)' type='1' name='GDRAM数量' value='10' show='0' pos='1.00000,-39.04604'/>
+			<FIELD id='104' pt='1' extra='0,65535' description='CGRAM起始地址（范围0～65535）' type='1' name='CGRAM起始' value='7168' show='0' pos='1.00000,-36.64604'/>
+			<FIELD id='105' pt='1' extra='1,5000' description='从起始地址显示多少CGRAM地址（范围1～5000,警告：设置过大将导致加载时间过长)' type='1' name='CGRAM数量' value='3' show='0' pos='1.00000,-34.24604'/>
+			<FIELD id='106' pt='1' extra='0,65535' description='将图片数据从哪个起始地址开始初始化，应该与你要设置的图形区域首地址相同（范围0～65535)' type='1' name='图片起始' value='512' show='0' pos='1.00000,-31.84604'/>
+			<FIELD id='107' pt='4' extra='BMP格式图片(*.bmp)|*.bmp|' description='指定初始化到GDRAM的图片' type='1' name='图片' value='' show='0' pos='1.00000,-29.44604'/>
+			<FIELD id='108' pt='3' extra='' description='' type='1' name='背景' value='00c0c0' show='0' pos='1.00000,-27.04604'/>
+			<FIELD id='109' pt='3' extra='' description='发光像素的填充颜色' type='1' name='点亮' value='000000' show='0' pos='1.00000,-24.64604'/>
+			<FIELD id='110' pt='3' extra='' description='发光像素的边框颜色' type='1' name='点亮边框' value='000000' show='0' pos='1.00000,-22.24604'/>
+			<FIELD id='111' pt='3' extra='' description='熄灭像素的填充颜色' type='1' name='熄灭' value='00c0c0' show='0' pos='1.00000,-19.84604'/>
+			<FIELD id='112' pt='3' extra='' description='熄灭像素的边框颜色' type='1' name='熄灭边框' value='00c0c0' show='0' pos='1.00000,-17.44604'/>
+			<PINDATA id='1' name='VSS' number='1' elec='3' deflevel='0' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='2' name='VDD' number='2' elec='4' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='3' name='V0' number='3' elec='5' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='4' name='C/D#' number='4' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='13'/>
+			<PINDATA id='5' name='RD#' number='5' elec='0' deflevel='1' extra='0' ttrigger='1' tcontroller='0' tcntlrpin='0' tnumber='12'/>
+			<PINDATA id='6' name='WR#' number='6' elec='0' deflevel='1' extra='0' ttrigger='1' tcontroller='0' tcntlrpin='0' tnumber='11'/>
+			<PINDATA id='7' name='D0' number='7' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='1'/>
+			<PINDATA id='8' name='D1' number='8' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='2'/>
+			<PINDATA id='9' name='D2' number='9' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='3'/>
+			<PINDATA id='10' name='D3' number='10' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='4'/>
+			<PINDATA id='11' name='D4' number='11' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='5'/>
+			<PINDATA id='12' name='D5' number='12' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='6'/>
+			<PINDATA id='13' name='D6' number='13' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='7'/>
+			<PINDATA id='14' name='D7' number='14' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='8'/>
+			<PINDATA id='15' name='CE#' number='15' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='14'/>
+			<PINDATA id='16' name='RST#' number='16' elec='0' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='17' name='VEE' number='17' elec='5' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='18' name='MD2' number='18' elec='5' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='19' name='FS1' number='19' elec='5' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+			<PINDATA id='20' name='HALT' number='20' elec='5' deflevel='1' extra='0' ttrigger='0' tcontroller='0' tcntlrpin='0' tnumber='0'/>
+		</SYMBOL>
+	</VisualCom>
+</VisualComSheets>
