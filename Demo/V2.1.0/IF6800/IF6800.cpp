@@ -89,7 +89,7 @@ BOOL CIF6800::Simulate(ABSTIME time, RUNMODES mode)
 		}
 		else
 		{
-			component->SetPinDataHigh(rs);           //发送指令时应该将RS拉高
+			component->SetPinDataHigh(rs);           //发送数据时应该将RS拉高
 		}
 		component->SetPinDataLow(rw);                      //RW拉低表示写数据
 		component->SetPinBusData(bus, pro_data_tmp.data & 0xFF);   //设置数据
